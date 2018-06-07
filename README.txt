@@ -4,15 +4,14 @@ cov-LDSC is a tool extended from original LDSC to measure heritability from GWAS
 
 ## Getting Started
 To download cov-ldsc‚ you should clone this repository via the command 
-‘’’
+
 git clone https://github.com/immunogenomics/cov-ldsc.git
-‘’’
 
 ## LD score 
-When estimating LD score in an admixed population, you should include the genome-wide covariance file with the flags -—cov. 
+When estimating LD score in an admixed population, you should include the genome-wide covariance file with the flags --cov. 
 
 eg. 
-ldsc.py —bfile 1000Genome —-l2 —-ld-wind-cm 20 -—cov 1000Genome.evec —-out 1000Genome_ld
+ldsc.py --bfile 1000Genome --l2 --ld-wind-cm 20 --cov 1000Genome.evec --out 1000Genome_ld
 
 The first two columns of the covariance file should be family IDs and individual IDs. For now, the individual order in the covariance file needs to have the same individual order as the .fam file. The subsequent columns are the covariates that you want to include in adjusting LD. 
 
