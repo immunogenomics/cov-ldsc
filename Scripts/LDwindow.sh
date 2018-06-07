@@ -1,5 +1,5 @@
 #!/bin/bash -l
-#call this files with flags -b (bedfile) -c (covariance file) -l (ldsc executable file) 
+#call this files with flags -b (bedfile, just use chromosome 2 file for test ) -c (covariance file) -l (ldsc executable file) 
 
 while getopts "b:c:g:l:p" arg; do 
 case $arg in 
