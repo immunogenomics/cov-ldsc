@@ -35,7 +35,7 @@ then
     echo "No options were passed"
     echo "$usage"
 else
-    for i in {1,3,5,10,20,30}
+    for i in {1,5,10,20,30}
     do 
 	python ${ldsc_exec} --bfile ${bed_file} --maf 0.05 --l2 --ld-wind-cm ${i} --out Outputs/chr2_cm${i}_noadj
 	python ${ldsc_exec} --bfile ${bed_file} --maf 0.05 --l2 --ld-wind-cm ${i} --cov $cov_file --out Outputs/chr2_cm${i}_wadj

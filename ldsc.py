@@ -263,13 +263,28 @@ def ldscore(args, log):
     # read keep_indivs
     if args.keep:
         keep_indivs = __filter__(args.keep, 'individuals', 'include', array_indivs)
+        array_indivs=array_indivs.IDList.iloc[keep_indivs]
+        #print('the first ind is {}'.format(new_array_indivs))
+
     else:
         keep_indivs = None
+        #print('the first ind is {}'.format(array_indivs.IDList))
 
     # read genotype array
     log.log('Reading genotypes from {fname}'.format(fname=array_file))
     geno_array = array_obj(array_file, n, array_snps, keep_snps=keep_snps,
         keep_indivs=keep_indivs, mafMin=args.maf)
+
+    # read covariance file 
+    if args.cov is not None:
+    	global cov_matrix
+        cov_matrix=pd.read_csv(args.cov, delim_whitespace=True, header=None) 
+        cov_matrix.set_index(cov_matrix.iloc[:,1],inplace=True)
+        cov_matrix=cov_matrix.loc[array_indivs.IDList.iloc[:,0],:]
+
+    else:
+    	cov_matrix=None
+
 
     # filter annot_matrix down to only SNPs passing MAF cutoffs
     if annot_matrix is not None:
@@ -313,7 +328,7 @@ def ldscore(args, log):
             annot_matrix = pq
 
     log.log("Estimating LD Score.")
-    lN = geno_array.ldScoreVarBlocks(block_left, args.chunk_size, annot=annot_matrix, cov_matrix=args.cov)
+    lN = geno_array.ldScoreVarBlocks(block_left, args.chunk_size, annot=annot_matrix, cov=cov_matrix)
     col_prefix = "L2"; file_suffix = "l2"
 
     if n_annot == 1:

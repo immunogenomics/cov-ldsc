@@ -118,15 +118,15 @@ class __GenotypeArrayInMemory__(object):
     def __filter_maf_(geno, m, n, maf):
         raise NotImplementedError
 
-    def ldScoreVarBlocks(self, block_left, c, annot=None, cov_matrix=None):
+    def ldScoreVarBlocks(self, block_left, c, annot=None, cov=None):
         '''Computes an unbiased estimate of L2(j) for j=1,..,M.'''
         func = lambda x: self.__l2_unbiased__(x, self.n)
         snp_getter = self.nextSNPs
-        return self.__corSumVarBlocks__(block_left, c, func, snp_getter, annot, cov_matrix)
+        return self.__corSumVarBlocks__(block_left, c, func, snp_getter, annot, cov)
 
     def ldScoreBlockJackknife(self, block_left, c, annot=None, jN=10):
         func = lambda x: np.square(x)
-        snp_getter = self.nextSNPs(cov_matrix=cov_matrix)
+        snp_getter = self.nextSNPs(cov=cov)
         return self.__corSumBlockJackknife__(block_left, c, func, snp_getter, annot, jN )
 
     def __l2_unbiased__(self, x, n):
@@ -135,7 +135,7 @@ class __GenotypeArrayInMemory__(object):
         return sq - (1-sq) / denom
 
     # general methods for calculating sums of Pearson correlation coefficients
-    def __corSumVarBlocks__(self, block_left, c, func, snp_getter, annot=None, cov_matrix=None):
+    def __corSumVarBlocks__(self, block_left, c, func, snp_getter, annot=None, cov=None):
         '''
         Parameters
         ----------
@@ -186,7 +186,7 @@ class __GenotypeArrayInMemory__(object):
             c = 1
             b = m
         l_A = 0  # l_A := index of leftmost SNP in matrix A
-        A = snp_getter(b, cov_matrix)
+        A = snp_getter(b, cov)
         rfuncAB = np.zeros((b, c))
         rfuncBB = np.zeros((c, c))
         # chunk inside of block
@@ -224,7 +224,7 @@ class __GenotypeArrayInMemory__(object):
             if b != old_b:
                 rfuncAB = np.zeros((b, c))
 
-            B = snp_getter(c, cov_matrix)
+            B = snp_getter(c, cov)
             p1 = np.all(annot[l_A:l_A+b, :] == 0)
             p2 = np.all(annot[l_B:l_B+c, :] == 0)
             if p1 and p2:
@@ -356,7 +356,7 @@ class PlinkBEDFile(__GenotypeArrayInMemory__):
 
         return (y, m_poly, n, kept_snps, freq)
 
-    def nextSNPs(self, b, cov_matrix=None, minorRef=None):
+    def nextSNPs(self, b, cov=None, minorRef=None):
         '''
         Unpacks the binary array of genotypes and returns an n x b matrix of floats of
         normalized genotypes for the next b SNPs, where n := number of samples.
@@ -397,9 +397,8 @@ class PlinkBEDFile(__GenotypeArrayInMemory__):
         X = np.array(slice.decode(self._bedcode), dtype="float64").reshape((b, nru)).T
         X = X[0:n, :]
         Y = np.zeros(X.shape)
-
-        self.keep_indivs
         
+
         for j in xrange(0, b):
             newsnp = X[:, j]
             ii = newsnp != 9
@@ -418,14 +417,13 @@ class PlinkBEDFile(__GenotypeArrayInMemory__):
             Z[:, j] = np.mean(Z[:])
             '''
 
-            if cov_matrix is not None:
-                pca=pd.read_csv(cov_matrix, delim_whitespace=True, header=None)    
+            if cov is not None:  
                 
                 #should match to the indiv? 
 
                 T=np.zeros(len(Y[:,j]))
-                for i in range(2,pca.shape[1]): 
-                    T= T+np.dot(pca.iloc[:,i],Y[:,j])*pca.iloc[:,i] 
+                for i in range(2,cov.shape[1]): 
+                    T= T+np.dot(cov.iloc[:,i],Y[:,j])*cov.iloc[:,i] 
                 newsnp=Y[:,j]-T
 
             #newsnp = Z
