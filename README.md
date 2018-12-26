@@ -2,7 +2,8 @@
 
 ## cov-LDSC
 covariate-adjusted LD score regression (cov-LDSC) is a method to provide robust hg2 estimates from GWAS summary statistics and in-sample LD estimates in admixed populations. Check out the latest [preprint](https://www.biorxiv.org/content/early/2018/12/22/503144) of cov-LDSC on bioRxiv.
-![ ](manuscript/figures/Figure1-covLDSC_overview.pdf)
+
+![ ](manuscript/figures/Figure1-covLDSC_overview.jpg)
 
 
 ## Getting Started

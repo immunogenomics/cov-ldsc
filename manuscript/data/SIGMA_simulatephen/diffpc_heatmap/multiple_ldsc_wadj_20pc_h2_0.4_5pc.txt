@@ -1,0 +1,3200 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 12:50:52 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4081 (0.0661)
+Lambda GC: 1.0744
+Mean Chi^2: 1.0811
+Intercept: 1.0023 (0.0081)
+Ratio: 0.0289 (0.1004)
+Analysis finished at Fri Jun 29 12:51:06 2018
+Total time elapsed: 13.83s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 13:33:45 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4248 (0.078)
+Lambda GC: 1.0833
+Mean Chi^2: 1.0892
+Intercept: 1.0062 (0.009)
+Ratio: 0.0698 (0.1014)
+Analysis finished at Fri Jun 29 13:33:59 2018
+Total time elapsed: 13.69s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 14:16:37 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5466 (0.0832)
+Lambda GC: 1.0954
+Mean Chi^2: 1.0997
+Intercept: 0.9929 (0.0092)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 14:16:51 2018
+Total time elapsed: 13.69s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 14:59:40 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4777 (0.0754)
+Lambda GC: 1.0809
+Mean Chi^2: 1.0882
+Intercept: 0.9961 (0.0087)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 14:59:54 2018
+Total time elapsed: 13.68s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 15:42:39 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.6765 (0.0728)
+Lambda GC: 1.1078
+Mean Chi^2: 1.1115
+Intercept: 0.9804 (0.009)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 15:42:53 2018
+Total time elapsed: 13.72s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 16:25:33 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4589 (0.0766)
+Lambda GC: 1.0821
+Mean Chi^2: 1.0896
+Intercept: 1.0002 (0.0092)
+Ratio: 0.0023 (0.1025)
+Analysis finished at Fri Jun 29 16:25:47 2018
+Total time elapsed: 13.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 17:08:28 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3675 (0.075)
+Lambda GC: 1.071
+Mean Chi^2: 1.0733
+Intercept: 1.0023 (0.009)
+Ratio: 0.0314 (0.1221)
+Analysis finished at Fri Jun 29 17:08:41 2018
+Total time elapsed: 13.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 17:51:21 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5385 (0.0759)
+Lambda GC: 1.0889
+Mean Chi^2: 1.0941
+Intercept: 0.9891 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 17:51:35 2018
+Total time elapsed: 13.75s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 18:34:18 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.2507 (0.079)
+Lambda GC: 1.0606
+Mean Chi^2: 1.0654
+Intercept: 1.0167 (0.0099)
+Ratio: 0.256 (0.1518)
+Analysis finished at Fri Jun 29 18:34:32 2018
+Total time elapsed: 13.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 19:17:09 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3508 (0.0776)
+Lambda GC: 1.0793
+Mean Chi^2: 1.0816
+Intercept: 1.0131 (0.009)
+Ratio: 0.16 (0.11)
+Analysis finished at Fri Jun 29 19:17:23 2018
+Total time elapsed: 13.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 20:00:20 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4964 (0.08)
+Lambda GC: 1.0895
+Mean Chi^2: 1.0917
+Intercept: 0.9948 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 20:00:34 2018
+Total time elapsed: 13.59s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 20:43:43 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5224 (0.0792)
+Lambda GC: 1.1041
+Mean Chi^2: 1.1038
+Intercept: 1.0028 (0.009)
+Ratio: 0.0273 (0.0871)
+Analysis finished at Fri Jun 29 20:43:57 2018
+Total time elapsed: 13.68s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 21:27:12 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5226 (0.0807)
+Lambda GC: 1.0809
+Mean Chi^2: 1.083
+Intercept: 0.9816 (0.0095)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 21:27:26 2018
+Total time elapsed: 13.6s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 22:10:16 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5423 (0.0772)
+Lambda GC: 1.0901
+Mean Chi^2: 1.0905
+Intercept: 0.9854 (0.0095)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 22:10:30 2018
+Total time elapsed: 13.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 22:53:16 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4951 (0.0681)
+Lambda GC: 1.0982
+Mean Chi^2: 1.0957
+Intercept: 0.9985 (0.009)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 22:53:30 2018
+Total time elapsed: 13.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Fri Jun 29 23:36:07 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3864 (0.0804)
+Lambda GC: 1.0683
+Mean Chi^2: 1.0705
+Intercept: 0.9956 (0.0092)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Fri Jun 29 23:36:21 2018
+Total time elapsed: 13.68s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 00:19:05 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5258 (0.0827)
+Lambda GC: 1.0911
+Mean Chi^2: 1.0992
+Intercept: 0.9977 (0.0097)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 00:19:19 2018
+Total time elapsed: 13.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 01:01:56 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4709 (0.0904)
+Lambda GC: 1.0809
+Mean Chi^2: 1.0932
+Intercept: 1.0018 (0.01)
+Ratio: 0.0189 (0.1076)
+Analysis finished at Sat Jun 30 01:02:10 2018
+Total time elapsed: 13.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 01:44:54 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3698 (0.0701)
+Lambda GC: 1.0701
+Mean Chi^2: 1.0795
+Intercept: 1.0076 (0.0085)
+Ratio: 0.0954 (0.1074)
+Analysis finished at Sat Jun 30 01:45:07 2018
+Total time elapsed: 13.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 02:27:49 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4705 (0.0736)
+Lambda GC: 1.0948
+Mean Chi^2: 1.0964
+Intercept: 1.004 (0.0092)
+Ratio: 0.041 (0.0954)
+Analysis finished at Sat Jun 30 02:28:03 2018
+Total time elapsed: 13.73s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 03:10:42 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4946 (0.0848)
+Lambda GC: 1.0945
+Mean Chi^2: 1.1033
+Intercept: 1.0072 (0.0097)
+Ratio: 0.0694 (0.0941)
+Analysis finished at Sat Jun 30 03:10:56 2018
+Total time elapsed: 13.76s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 03:53:42 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.6053 (0.0787)
+Lambda GC: 1.0914
+Mean Chi^2: 1.1017
+Intercept: 0.9827 (0.009)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 03:53:55 2018
+Total time elapsed: 13.72s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 04:36:38 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5138 (0.0814)
+Lambda GC: 1.0892
+Mean Chi^2: 1.0946
+Intercept: 0.9949 (0.0097)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 04:36:52 2018
+Total time elapsed: 13.74s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 05:19:34 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4343 (0.0851)
+Lambda GC: 1.087
+Mean Chi^2: 1.0907
+Intercept: 1.0067 (0.0099)
+Ratio: 0.0744 (0.1088)
+Analysis finished at Sat Jun 30 05:19:48 2018
+Total time elapsed: 13.59s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 06:02:25 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5404 (0.0887)
+Lambda GC: 1.1001
+Mean Chi^2: 1.1081
+Intercept: 1.0025 (0.01)
+Ratio: 0.0235 (0.0921)
+Analysis finished at Sat Jun 30 06:02:38 2018
+Total time elapsed: 13.72s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 06:45:21 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.53 (0.0821)
+Lambda GC: 1.0861
+Mean Chi^2: 1.089
+Intercept: 0.9853 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 06:45:34 2018
+Total time elapsed: 13.74s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 07:28:13 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4908 (0.0882)
+Lambda GC: 1.0772
+Mean Chi^2: 1.0855
+Intercept: 0.9894 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 07:28:27 2018
+Total time elapsed: 13.77s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 08:11:09 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5233 (0.0859)
+Lambda GC: 1.0976
+Mean Chi^2: 1.1018
+Intercept: 1.0006 (0.0093)
+Ratio: 0.0059 (0.0917)
+Analysis finished at Sat Jun 30 08:11:23 2018
+Total time elapsed: 13.76s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 08:54:04 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4722 (0.0695)
+Lambda GC: 1.0858
+Mean Chi^2: 1.0911
+Intercept: 0.999 (0.0084)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 08:54:18 2018
+Total time elapsed: 13.73s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 09:37:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3305 (0.0683)
+Lambda GC: 1.0707
+Mean Chi^2: 1.0747
+Intercept: 1.0096 (0.0084)
+Ratio: 0.1287 (0.1125)
+Analysis finished at Sat Jun 30 09:37:17 2018
+Total time elapsed: 13.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 10:19:58 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5083 (0.0889)
+Lambda GC: 1.0948
+Mean Chi^2: 1.1019
+Intercept: 1.0027 (0.0096)
+Ratio: 0.0262 (0.0941)
+Analysis finished at Sat Jun 30 10:20:12 2018
+Total time elapsed: 13.73s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 11:02:53 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4161 (0.0807)
+Lambda GC: 1.0772
+Mean Chi^2: 1.0863
+Intercept: 1.0059 (0.009)
+Ratio: 0.0682 (0.104)
+Analysis finished at Sat Jun 30 11:03:06 2018
+Total time elapsed: 13.77s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 11:45:45 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4358 (0.078)
+Lambda GC: 1.0818
+Mean Chi^2: 1.0904
+Intercept: 1.0057 (0.0095)
+Ratio: 0.0635 (0.105)
+Analysis finished at Sat Jun 30 11:45:58 2018
+Total time elapsed: 13.75s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 12:28:40 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4158 (0.0879)
+Lambda GC: 1.0805
+Mean Chi^2: 1.091
+Intercept: 1.0094 (0.0104)
+Ratio: 0.1029 (0.1139)
+Analysis finished at Sat Jun 30 12:28:54 2018
+Total time elapsed: 13.75s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 13:11:34 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4631 (0.0825)
+Lambda GC: 1.0855
+Mean Chi^2: 1.085
+Intercept: 0.9942 (0.0098)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 13:11:47 2018
+Total time elapsed: 13.55s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 13:54:26 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4462 (0.0741)
+Lambda GC: 1.0852
+Mean Chi^2: 1.0862
+Intercept: 0.9995 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 13:54:40 2018
+Total time elapsed: 13.75s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 14:37:21 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5416 (0.0778)
+Lambda GC: 1.0911
+Mean Chi^2: 1.0988
+Intercept: 0.9938 (0.009)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 14:37:34 2018
+Total time elapsed: 13.78s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 15:20:14 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4468 (0.0764)
+Lambda GC: 1.0741
+Mean Chi^2: 1.0834
+Intercept: 0.9967 (0.0089)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 15:20:28 2018
+Total time elapsed: 13.7s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 16:03:10 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5656 (0.0917)
+Lambda GC: 1.1029
+Mean Chi^2: 1.1106
+Intercept: 0.9995 (0.0091)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 16:03:23 2018
+Total time elapsed: 13.7s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 16:46:02 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3825 (0.0682)
+Lambda GC: 1.0698
+Mean Chi^2: 1.0747
+Intercept: 1.0005 (0.0089)
+Ratio: 0.0069 (0.1197)
+Analysis finished at Sat Jun 30 16:46:16 2018
+Total time elapsed: 13.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 17:28:58 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.369 (0.0988)
+Lambda GC: 1.0867
+Mean Chi^2: 1.09
+Intercept: 1.0172 (0.0107)
+Ratio: 0.191 (0.1191)
+Analysis finished at Sat Jun 30 17:29:12 2018
+Total time elapsed: 13.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 18:11:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4612 (0.0729)
+Lambda GC: 1.096
+Mean Chi^2: 1.0932
+Intercept: 1.004 (0.0094)
+Ratio: 0.0424 (0.1013)
+Analysis finished at Sat Jun 30 18:12:09 2018
+Total time elapsed: 13.83s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 18:54:56 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5629 (0.0829)
+Lambda GC: 1.0926
+Mean Chi^2: 1.1028
+Intercept: 0.9943 (0.0096)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 18:55:09 2018
+Total time elapsed: 13.76s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 19:37:53 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4879 (0.081)
+Lambda GC: 1.0769
+Mean Chi^2: 1.0891
+Intercept: 0.9929 (0.0103)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 19:38:07 2018
+Total time elapsed: 13.86s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 20:20:52 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.2975 (0.0611)
+Lambda GC: 1.0772
+Mean Chi^2: 1.0807
+Intercept: 1.0228 (0.0079)
+Ratio: 0.2819 (0.0982)
+Analysis finished at Sat Jun 30 20:21:05 2018
+Total time elapsed: 13.83s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 21:03:51 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.502 (0.0793)
+Lambda GC: 1.0923
+Mean Chi^2: 1.0965
+Intercept: 0.9981 (0.0092)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 21:04:04 2018
+Total time elapsed: 13.95s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 21:46:52 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5637 (0.0922)
+Lambda GC: 1.0886
+Mean Chi^2: 1.1019
+Intercept: 0.9927 (0.0101)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 21:47:06 2018
+Total time elapsed: 13.95s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 22:29:57 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5368 (0.0624)
+Lambda GC: 1.0833
+Mean Chi^2: 1.0831
+Intercept: 0.9793 (0.0083)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 22:30:11 2018
+Total time elapsed: 13.94s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 23:12:58 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.391 (0.0653)
+Lambda GC: 1.0683
+Mean Chi^2: 1.0697
+Intercept: 0.9944 (0.0084)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 23:13:12 2018
+Total time elapsed: 13.96s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sat Jun 30 23:56:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5974 (0.091)
+Lambda GC: 1.0858
+Mean Chi^2: 1.0972
+Intercept: 0.9802 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sat Jun 30 23:56:17 2018
+Total time elapsed: 13.85s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 00:39:11 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3266 (0.063)
+Lambda GC: 1.0615
+Mean Chi^2: 1.0646
+Intercept: 1.0009 (0.0089)
+Ratio: 0.0138 (0.1376)
+Analysis finished at Sun Jul  1 00:39:25 2018
+Total time elapsed: 13.96s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 01:22:17 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4309 (0.0767)
+Lambda GC: 1.0945
+Mean Chi^2: 1.0946
+Intercept: 1.0111 (0.01)
+Ratio: 0.1174 (0.1061)
+Analysis finished at Sun Jul  1 01:22:31 2018
+Total time elapsed: 14.02s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 02:05:41 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4984 (0.0738)
+Lambda GC: 1.0948
+Mean Chi^2: 1.0999
+Intercept: 1.0027 (0.0082)
+Ratio: 0.0275 (0.0824)
+Analysis finished at Sun Jul  1 02:05:55 2018
+Total time elapsed: 13.97s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 02:48:48 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5667 (0.0775)
+Lambda GC: 1.0812
+Mean Chi^2: 1.0906
+Intercept: 0.9804 (0.0085)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 02:49:02 2018
+Total time elapsed: 13.93s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 03:31:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4822 (0.0856)
+Lambda GC: 1.0926
+Mean Chi^2: 1.0918
+Intercept: 0.9977 (0.0105)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 03:32:09 2018
+Total time elapsed: 13.99s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 04:15:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4918 (0.0808)
+Lambda GC: 1.0753
+Mean Chi^2: 1.0903
+Intercept: 0.9941 (0.0094)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 04:15:17 2018
+Total time elapsed: 14.55s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 04:58:04 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5129 (0.0965)
+Lambda GC: 1.0833
+Mean Chi^2: 1.0949
+Intercept: 0.9943 (0.011)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 04:58:17 2018
+Total time elapsed: 13.77s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 05:41:06 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.2989 (0.0707)
+Lambda GC: 1.0643
+Mean Chi^2: 1.0679
+Intercept: 1.0099 (0.0094)
+Ratio: 0.1463 (0.139)
+Analysis finished at Sun Jul  1 05:41:20 2018
+Total time elapsed: 13.94s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 06:24:11 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.363 (0.0868)
+Lambda GC: 1.0588
+Mean Chi^2: 1.0697
+Intercept: 0.9986 (0.0102)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 06:24:25 2018
+Total time elapsed: 13.98s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 07:07:11 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.6483 (0.0855)
+Lambda GC: 1.1122
+Mean Chi^2: 1.1142
+Intercept: 0.9877 (0.0102)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 07:07:25 2018
+Total time elapsed: 13.85s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 07:50:11 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4116 (0.0768)
+Lambda GC: 1.0652
+Mean Chi^2: 1.0701
+Intercept: 0.99 (0.0091)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 07:50:25 2018
+Total time elapsed: 13.82s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 08:33:11 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.486 (0.0793)
+Lambda GC: 1.0824
+Mean Chi^2: 1.0863
+Intercept: 0.9909 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 08:33:25 2018
+Total time elapsed: 13.89s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 09:16:13 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.574 (0.0809)
+Lambda GC: 1.0858
+Mean Chi^2: 1.0974
+Intercept: 0.9851 (0.0098)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 09:16:27 2018
+Total time elapsed: 13.92s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 09:59:13 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4355 (0.0713)
+Lambda GC: 1.0889
+Mean Chi^2: 1.092
+Intercept: 1.0075 (0.0084)
+Ratio: 0.081 (0.0915)
+Analysis finished at Sun Jul  1 09:59:26 2018
+Total time elapsed: 13.91s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 10:42:16 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5829 (0.0869)
+Lambda GC: 1.0907
+Mean Chi^2: 1.1023
+Intercept: 0.9891 (0.0097)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 10:42:30 2018
+Total time elapsed: 13.89s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 11:25:17 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4201 (0.0653)
+Lambda GC: 1.0846
+Mean Chi^2: 1.0856
+Intercept: 1.0039 (0.0078)
+Ratio: 0.046 (0.0905)
+Analysis finished at Sun Jul  1 11:25:31 2018
+Total time elapsed: 13.89s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 12:08:20 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5416 (0.077)
+Lambda GC: 1.1019
+Mean Chi^2: 1.0954
+Intercept: 0.9903 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 12:08:34 2018
+Total time elapsed: 14.0s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 12:51:27 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3745 (0.0691)
+Lambda GC: 1.088
+Mean Chi^2: 1.082
+Intercept: 1.0091 (0.0092)
+Ratio: 0.1112 (0.1117)
+Analysis finished at Sun Jul  1 12:51:41 2018
+Total time elapsed: 13.97s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 13:34:28 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5308 (0.088)
+Lambda GC: 1.0954
+Mean Chi^2: 1.1026
+Intercept: 0.9989 (0.0103)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 13:34:42 2018
+Total time elapsed: 13.98s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 14:17:37 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3371 (0.0653)
+Lambda GC: 1.0698
+Mean Chi^2: 1.0751
+Intercept: 1.0099 (0.0081)
+Ratio: 0.1314 (0.1072)
+Analysis finished at Sun Jul  1 14:17:51 2018
+Total time elapsed: 13.96s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 15:00:38 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3781 (0.0707)
+Lambda GC: 1.0738
+Mean Chi^2: 1.0799
+Intercept: 1.0063 (0.0085)
+Ratio: 0.0788 (0.1068)
+Analysis finished at Sun Jul  1 15:00:52 2018
+Total time elapsed: 13.98s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 15:43:41 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3826 (0.0791)
+Lambda GC: 1.0655
+Mean Chi^2: 1.0703
+Intercept: 0.9958 (0.0097)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 15:43:55 2018
+Total time elapsed: 13.93s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 16:26:47 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5823 (0.0717)
+Lambda GC: 1.1032
+Mean Chi^2: 1.1048
+Intercept: 0.9912 (0.0087)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 16:27:01 2018
+Total time elapsed: 13.98s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 17:09:52 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.66 (0.0867)
+Lambda GC: 1.1057
+Mean Chi^2: 1.1148
+Intercept: 0.9865 (0.0089)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 17:10:06 2018
+Total time elapsed: 13.94s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 17:52:54 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3759 (0.0644)
+Lambda GC: 1.0759
+Mean Chi^2: 1.0788
+Intercept: 1.0058 (0.0078)
+Ratio: 0.0739 (0.0989)
+Analysis finished at Sun Jul  1 17:53:08 2018
+Total time elapsed: 13.81s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 18:35:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5104 (0.0745)
+Lambda GC: 1.0818
+Mean Chi^2: 1.0876
+Intercept: 0.9882 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 18:36:09 2018
+Total time elapsed: 13.98s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 19:18:59 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4462 (0.079)
+Lambda GC: 1.0735
+Mean Chi^2: 1.0816
+Intercept: 0.9954 (0.0093)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 19:19:13 2018
+Total time elapsed: 13.98s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 20:02:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.6618 (0.0985)
+Lambda GC: 1.0994
+Mean Chi^2: 1.1079
+Intercept: 0.9772 (0.0101)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 20:02:17 2018
+Total time elapsed: 13.93s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 20:45:29 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.499 (0.0746)
+Lambda GC: 1.0904
+Mean Chi^2: 1.0968
+Intercept: 1. (0.0092)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 20:45:43 2018
+Total time elapsed: 13.93s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 21:28:29 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4187 (0.0676)
+Lambda GC: 1.0698
+Mean Chi^2: 1.073
+Intercept: 0.992 (0.0082)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 21:28:43 2018
+Total time elapsed: 13.88s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 22:11:24 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4566 (0.0667)
+Lambda GC: 1.0852
+Mean Chi^2: 1.0848
+Intercept: 0.996 (0.0084)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 22:11:38 2018
+Total time elapsed: 13.72s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 22:54:51 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3791 (0.0739)
+Lambda GC: 1.0835
+Mean Chi^2: 1.0852
+Intercept: 1.011 (0.0094)
+Ratio: 0.1291 (0.11)
+Analysis finished at Sun Jul  1 22:55:05 2018
+Total time elapsed: 13.92s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Sun Jul  1 23:37:52 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5985 (0.0783)
+Lambda GC: 1.0973
+Mean Chi^2: 1.1062
+Intercept: 0.9893 (0.0089)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Sun Jul  1 23:38:06 2018
+Total time elapsed: 13.81s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 00:20:53 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4931 (0.0778)
+Lambda GC: 1.0812
+Mean Chi^2: 1.0884
+Intercept: 0.9925 (0.0094)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 00:21:06 2018
+Total time elapsed: 13.88s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 01:03:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4752 (0.0843)
+Lambda GC: 1.0994
+Mean Chi^2: 1.0962
+Intercept: 1.0035 (0.0096)
+Ratio: 0.036 (0.1003)
+Analysis finished at Mon Jul  2 01:04:09 2018
+Total time elapsed: 13.88s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 01:46:56 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4203 (0.0715)
+Lambda GC: 1.0812
+Mean Chi^2: 1.0894
+Intercept: 1.0087 (0.0083)
+Ratio: 0.0977 (0.0929)
+Analysis finished at Mon Jul  2 01:47:10 2018
+Total time elapsed: 13.82s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 02:29:53 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4628 (0.0868)
+Lambda GC: 1.0904
+Mean Chi^2: 1.0959
+Intercept: 1.0067 (0.0089)
+Ratio: 0.0698 (0.093)
+Analysis finished at Mon Jul  2 02:30:07 2018
+Total time elapsed: 13.84s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 03:13:10 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5884 (0.0758)
+Lambda GC: 1.1004
+Mean Chi^2: 1.1036
+Intercept: 0.9877 (0.0094)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 03:13:24 2018
+Total time elapsed: 14.06s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 03:56:29 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3957 (0.0667)
+Lambda GC: 1.0842
+Mean Chi^2: 1.0813
+Intercept: 1.0043 (0.0095)
+Ratio: 0.0531 (0.1166)
+Analysis finished at Mon Jul  2 03:56:43 2018
+Total time elapsed: 14.08s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 04:39:44 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5368 (0.0854)
+Lambda GC: 1.0904
+Mean Chi^2: 1.0943
+Intercept: 0.9905 (0.0096)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 04:39:58 2018
+Total time elapsed: 14.15s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 05:23:00 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4239 (0.0678)
+Lambda GC: 1.087
+Mean Chi^2: 1.09
+Intercept: 1.0076 (0.0087)
+Ratio: 0.0839 (0.0961)
+Analysis finished at Mon Jul  2 05:23:14 2018
+Total time elapsed: 14.19s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 06:06:20 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.6731 (0.1052)
+Lambda GC: 1.1113
+Mean Chi^2: 1.1218
+Intercept: 0.9903 (0.0101)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 06:06:34 2018
+Total time elapsed: 14.23s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 06:49:38 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4675 (0.0738)
+Lambda GC: 1.0901
+Mean Chi^2: 1.0889
+Intercept: 0.9981 (0.0094)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 06:49:52 2018
+Total time elapsed: 14.21s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 07:32:58 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3959 (0.0835)
+Lambda GC: 1.0695
+Mean Chi^2: 1.0757
+Intercept: 0.9985 (0.0097)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 07:33:12 2018
+Total time elapsed: 14.29s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 08:16:20 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3919 (0.0712)
+Lambda GC: 1.0775
+Mean Chi^2: 1.0789
+Intercept: 1.0029 (0.009)
+Ratio: 0.0369 (0.1138)
+Analysis finished at Mon Jul  2 08:16:34 2018
+Total time elapsed: 14.31s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 08:59:24 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3896 (0.069)
+Lambda GC: 1.0649
+Mean Chi^2: 1.0698
+Intercept: 0.9941 (0.0089)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 08:59:38 2018
+Total time elapsed: 13.85s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 09:42:24 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4246 (0.0669)
+Lambda GC: 1.0722
+Mean Chi^2: 1.0824
+Intercept: 1. (0.008)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 09:42:38 2018
+Total time elapsed: 13.83s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 10:25:21 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3721 (0.0689)
+Lambda GC: 1.0753
+Mean Chi^2: 1.0759
+Intercept: 1.0032 (0.0086)
+Ratio: 0.0418 (0.113)
+Analysis finished at Mon Jul  2 10:25:35 2018
+Total time elapsed: 13.83s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 11:08:14 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.6533 (0.0907)
+Lambda GC: 1.1082
+Mean Chi^2: 1.1144
+Intercept: 0.9879 (0.0101)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Mon Jul  2 11:08:27 2018
+Total time elapsed: 13.6s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--ref-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc \
+--out adm_random_h2_wadj \
+--w-ld-chr /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr@_20cm_wadj_20pc 
+
+Beginning analysis at Mon Jul  2 11:51:01 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 1108034 SNPs.
+Reading reference panel LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read reference panel LD Scores for 1393229 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /medpop/srlab/xli/admixture/sigma_new_cohort/ldscore_20cm_adj_20pc/chr[1-22]_20cm_wadj_20pc ...
+Read regression weight LD Scores for 1393229 SNPs.
+After merging with reference panel LD, 1108034 SNPs remain.
+After merging with regression SNP LD, 1108034 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4709 (0.0722)
+Lambda GC: 1.0867
+Mean Chi^2: 1.095
+Intercept: 1.0035 (0.0089)
+Ratio: 0.0373 (0.0933)
+Analysis finished at Mon Jul  2 11:51:15 2018
+Total time elapsed: 13.53s

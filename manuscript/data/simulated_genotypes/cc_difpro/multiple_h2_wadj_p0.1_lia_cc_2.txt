@@ -1,0 +1,3850 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 16:58:44 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505121 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 16:58:44 2018
+Total time elapsed: 0.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 17:19:00 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504980 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 17:19:01 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 17:44:33 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504886 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 17:44:33 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 18:05:53 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505222 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 18:05:53 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 18:26:49 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504653 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 18:26:50 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 18:47:56 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504506 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 18:47:57 2018
+Total time elapsed: 0.55s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 19:09:02 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504968 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 19:09:02 2018
+Total time elapsed: 0.55s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 19:28:56 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504642 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 19:28:57 2018
+Total time elapsed: 0.55s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 19:50:10 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504868 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 19:50:11 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 20:11:13 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504246 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 20:11:14 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 20:36:35 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504058 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 20:36:35 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 20:57:24 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504368 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 20:57:24 2018
+Total time elapsed: 0.51s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 21:17:08 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504887 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 21:17:08 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 21:36:52 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504729 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 21:36:52 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 21:57:50 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504928 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 21:57:50 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 22:19:21 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505050 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 22:19:22 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 22:39:12 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505053 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 22:39:13 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 23:00:14 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504749 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 23:00:14 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 23:23:49 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504360 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 23:23:49 2018
+Total time elapsed: 0.49s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Feb  9 23:45:36 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504888 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Fri Feb  9 23:45:37 2018
+Total time elapsed: 0.68s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 00:05:48 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504499 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 00:05:49 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 00:27:17 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504702 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 00:27:18 2018
+Total time elapsed: 0.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 00:47:31 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504924 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 00:47:32 2018
+Total time elapsed: 0.57s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 01:08:59 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505166 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 01:08:59 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 01:29:25 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504893 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 01:29:26 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 01:50:31 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504214 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 01:50:31 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 02:16:02 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504947 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 02:16:02 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 02:37:10 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504551 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 02:37:10 2018
+Total time elapsed: 0.5s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 02:58:05 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504852 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 02:58:06 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 03:19:11 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505097 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 03:19:12 2018
+Total time elapsed: 0.51s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 03:40:00 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504555 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 03:40:00 2018
+Total time elapsed: 0.59s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 03:59:50 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504995 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 03:59:50 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 04:19:40 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505162 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 04:19:41 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 04:40:35 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504786 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 04:40:36 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 05:06:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504877 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 05:06:04 2018
+Total time elapsed: 0.57s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 05:27:04 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504967 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 05:27:05 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 05:47:28 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504673 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 05:47:28 2018
+Total time elapsed: 0.5s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 06:07:35 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504461 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 06:07:35 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 06:29:17 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504388 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 06:29:17 2018
+Total time elapsed: 0.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 06:50:41 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505013 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 06:50:41 2018
+Total time elapsed: 0.53s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 07:14:14 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505127 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 07:14:14 2018
+Total time elapsed: 0.55s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 07:35:07 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504721 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 07:35:08 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 08:00:22 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504611 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 08:00:23 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 08:21:26 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504924 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 08:21:26 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 08:42:28 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504811 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 08:42:28 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 09:02:26 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504140 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 09:02:26 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 09:23:32 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504705 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 09:23:32 2018
+Total time elapsed: 0.5s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 09:44:34 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504494 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 09:44:34 2018
+Total time elapsed: 0.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 10:04:25 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504870 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 10:04:26 2018
+Total time elapsed: 0.57s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Feb 10 10:25:26 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504643 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Traceback (most recent call last):
+  File "/data/srlab/xli/admixture/ldsc_mod/ldsc.py", line 647, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/sumstats.py", line 148, in _read_chr_split_files
+    out = parsefunc(_splitp(not_chr_arg), **kwargs)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 93, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 141, in ldscore
+    s, compression = which_compression(fh + suffix)
+  File "/data/srlab/xli/admixture/ldsc_mod/ldscore/parse.py", line 43, in which_compression
+    raise IOError('Could not open {F}[./gz/bz2]'.format(F=fh))
+IOError: Could not open admix_p_0.1_10000_chr2_5cm_adjust.l2.ldscore[./gz/bz2]
+
+Analysis finished at Sat Feb 10 10:25:27 2018
+Total time elapsed: 0.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Mon Feb 26 19:29:36 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504004 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504004 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504004 SNPs.
+After merging with reference panel LD, 504004 SNPs remain.
+After merging with regression SNP LD, 504004 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3757 (0.0333)
+Lambda GC: 1.9083
+Mean Chi^2: 2.1915
+Intercept: 1.1061 (0.019)
+Ratio: 0.0891 (0.016)
+Analysis finished at Mon Feb 26 19:29:39 2018
+Total time elapsed: 2.67s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Feb 27 01:32:08 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505226 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505226 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505226 SNPs.
+After merging with reference panel LD, 505226 SNPs remain.
+After merging with regression SNP LD, 505226 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4189 (0.0299)
+Lambda GC: 1.9706
+Mean Chi^2: 2.1891
+Intercept: 1.0858 (0.0188)
+Ratio: 0.0721 (0.0158)
+Analysis finished at Tue Feb 27 01:32:11 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Feb 27 07:32:49 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504656 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504656 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504656 SNPs.
+After merging with reference panel LD, 504656 SNPs remain.
+After merging with regression SNP LD, 504656 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3835 (0.0298)
+Lambda GC: 1.8264
+Mean Chi^2: 2.2381
+Intercept: 1.0868 (0.0207)
+Ratio: 0.0701 (0.0167)
+Analysis finished at Tue Feb 27 07:32:52 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Feb 27 13:35:43 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505014 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505014 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505014 SNPs.
+After merging with reference panel LD, 505014 SNPs remain.
+After merging with regression SNP LD, 505014 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3544 (0.0288)
+Lambda GC: 1.8389
+Mean Chi^2: 2.0934
+Intercept: 1.0557 (0.0193)
+Ratio: 0.0509 (0.0176)
+Analysis finished at Tue Feb 27 13:35:46 2018
+Total time elapsed: 2.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Feb 27 19:37:23 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504612 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504612 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504612 SNPs.
+After merging with reference panel LD, 504612 SNPs remain.
+After merging with regression SNP LD, 504612 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4086 (0.0275)
+Lambda GC: 1.9744
+Mean Chi^2: 2.4772
+Intercept: 1.0736 (0.0198)
+Ratio: 0.0498 (0.0134)
+Analysis finished at Tue Feb 27 19:37:26 2018
+Total time elapsed: 2.59s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Feb 28 01:38:21 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505131 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505131 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505131 SNPs.
+After merging with reference panel LD, 505131 SNPs remain.
+After merging with regression SNP LD, 505131 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.352 (0.0238)
+Lambda GC: 1.8724
+Mean Chi^2: 2.0567
+Intercept: 1.0941 (0.0205)
+Ratio: 0.0891 (0.0194)
+Analysis finished at Wed Feb 28 01:38:23 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Feb 28 07:38:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504694 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504694 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504694 SNPs.
+After merging with reference panel LD, 504694 SNPs remain.
+After merging with regression SNP LD, 504694 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3748 (0.0314)
+Lambda GC: 1.8096
+Mean Chi^2: 2.1538
+Intercept: 1.057 (0.0197)
+Ratio: 0.0494 (0.0171)
+Analysis finished at Wed Feb 28 07:38:58 2018
+Total time elapsed: 2.78s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Feb 28 13:40:54 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504912 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504912 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504912 SNPs.
+After merging with reference panel LD, 504912 SNPs remain.
+After merging with regression SNP LD, 504912 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.34 (0.0246)
+Lambda GC: 1.7676
+Mean Chi^2: 1.9397
+Intercept: 1.1057 (0.02)
+Ratio: 0.1125 (0.0213)
+Analysis finished at Wed Feb 28 13:40:57 2018
+Total time elapsed: 2.64s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Feb 28 19:44:22 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504606 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504606 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504606 SNPs.
+After merging with reference panel LD, 504606 SNPs remain.
+After merging with regression SNP LD, 504606 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3529 (0.0283)
+Lambda GC: 1.8084
+Mean Chi^2: 2.1051
+Intercept: 1.0608 (0.0188)
+Ratio: 0.055 (0.017)
+Analysis finished at Wed Feb 28 19:44:25 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  1 01:48:07 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504524 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504524 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504524 SNPs.
+After merging with reference panel LD, 504524 SNPs remain.
+After merging with regression SNP LD, 504524 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4085 (0.0248)
+Lambda GC: 1.8787
+Mean Chi^2: 2.0706
+Intercept: 1.0737 (0.0195)
+Ratio: 0.0688 (0.0182)
+Analysis finished at Thu Mar  1 01:48:10 2018
+Total time elapsed: 2.64s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  1 07:48:47 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505352 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505352 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505352 SNPs.
+After merging with reference panel LD, 505352 SNPs remain.
+After merging with regression SNP LD, 505352 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3714 (0.0256)
+Lambda GC: 1.9436
+Mean Chi^2: 2.2264
+Intercept: 1.1035 (0.018)
+Ratio: 0.0844 (0.0147)
+Analysis finished at Thu Mar  1 07:48:49 2018
+Total time elapsed: 2.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  1 13:51:38 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504351 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504351 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504351 SNPs.
+After merging with reference panel LD, 504351 SNPs remain.
+After merging with regression SNP LD, 504351 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3448 (0.027)
+Lambda GC: 1.7973
+Mean Chi^2: 2.0615
+Intercept: 1.1167 (0.0205)
+Ratio: 0.1099 (0.0193)
+Analysis finished at Thu Mar  1 13:51:41 2018
+Total time elapsed: 2.81s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  1 19:52:24 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504383 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504383 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504383 SNPs.
+After merging with reference panel LD, 504383 SNPs remain.
+After merging with regression SNP LD, 504383 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3783 (0.0293)
+Lambda GC: 1.7621
+Mean Chi^2: 2.0387
+Intercept: 1.0401 (0.0202)
+Ratio: 0.0386 (0.0195)
+Analysis finished at Thu Mar  1 19:52:26 2018
+Total time elapsed: 2.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  2 01:52:22 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504211 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504211 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504211 SNPs.
+After merging with reference panel LD, 504211 SNPs remain.
+After merging with regression SNP LD, 504211 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3989 (0.0345)
+Lambda GC: 2.0003
+Mean Chi^2: 2.2559
+Intercept: 1.1329 (0.0235)
+Ratio: 0.1058 (0.0187)
+Analysis finished at Fri Mar  2 01:52:24 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  2 07:53:12 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504579 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504579 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504579 SNPs.
+After merging with reference panel LD, 504579 SNPs remain.
+After merging with regression SNP LD, 504579 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3628 (0.024)
+Lambda GC: 1.8554
+Mean Chi^2: 2.1167
+Intercept: 1.1324 (0.019)
+Ratio: 0.1186 (0.017)
+Analysis finished at Fri Mar  2 07:53:15 2018
+Total time elapsed: 2.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  2 13:53:38 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504761 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504761 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504761 SNPs.
+After merging with reference panel LD, 504761 SNPs remain.
+After merging with regression SNP LD, 504761 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3966 (0.026)
+Lambda GC: 1.9288
+Mean Chi^2: 2.3809
+Intercept: 1.064 (0.021)
+Ratio: 0.0463 (0.0152)
+Analysis finished at Fri Mar  2 13:53:40 2018
+Total time elapsed: 2.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  2 19:54:26 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505313 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505313 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505313 SNPs.
+After merging with reference panel LD, 505313 SNPs remain.
+After merging with regression SNP LD, 505313 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3593 (0.0289)
+Lambda GC: 1.8405
+Mean Chi^2: 2.0646
+Intercept: 1.1043 (0.0213)
+Ratio: 0.098 (0.02)
+Analysis finished at Fri Mar  2 19:54:28 2018
+Total time elapsed: 2.64s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar  3 01:53:46 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504693 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504693 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504693 SNPs.
+After merging with reference panel LD, 504693 SNPs remain.
+After merging with regression SNP LD, 504693 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.405 (0.0287)
+Lambda GC: 1.9321
+Mean Chi^2: 2.1165
+Intercept: 1.1073 (0.0196)
+Ratio: 0.0961 (0.0175)
+Analysis finished at Sat Mar  3 01:53:49 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar  3 07:53:58 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504150 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504150 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504150 SNPs.
+After merging with reference panel LD, 504150 SNPs remain.
+After merging with regression SNP LD, 504150 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4081 (0.0298)
+Lambda GC: 1.9982
+Mean Chi^2: 2.1444
+Intercept: 1.0992 (0.0191)
+Ratio: 0.0867 (0.0167)
+Analysis finished at Sat Mar  3 07:54:00 2018
+Total time elapsed: 2.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar  3 13:56:02 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504637 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504637 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504637 SNPs.
+After merging with reference panel LD, 504637 SNPs remain.
+After merging with regression SNP LD, 504637 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3481 (0.0257)
+Lambda GC: 1.8614
+Mean Chi^2: 2.1383
+Intercept: 1.1374 (0.0191)
+Ratio: 0.1207 (0.0168)
+Analysis finished at Sat Mar  3 13:56:05 2018
+Total time elapsed: 2.64s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar  3 19:55:13 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504561 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504561 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504561 SNPs.
+After merging with reference panel LD, 504561 SNPs remain.
+After merging with regression SNP LD, 504561 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.414 (0.0297)
+Lambda GC: 1.9919
+Mean Chi^2: 2.1847
+Intercept: 1.0839 (0.0195)
+Ratio: 0.0708 (0.0165)
+Analysis finished at Sat Mar  3 19:55:16 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sun Mar  4 01:53:33 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504845 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504845 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504845 SNPs.
+After merging with reference panel LD, 504845 SNPs remain.
+After merging with regression SNP LD, 504845 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4178 (0.0272)
+Lambda GC: 2.0087
+Mean Chi^2: 2.651
+Intercept: 1.0675 (0.0191)
+Ratio: 0.0409 (0.0116)
+Analysis finished at Sun Mar  4 01:53:36 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sun Mar  4 07:54:45 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505234 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505234 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505234 SNPs.
+After merging with reference panel LD, 505234 SNPs remain.
+After merging with regression SNP LD, 505234 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3818 (0.0292)
+Lambda GC: 1.989
+Mean Chi^2: 2.2703
+Intercept: 1.0788 (0.0191)
+Ratio: 0.0621 (0.015)
+Analysis finished at Sun Mar  4 07:54:47 2018
+Total time elapsed: 2.67s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sun Mar  4 13:54:47 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504431 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504431 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504431 SNPs.
+After merging with reference panel LD, 504431 SNPs remain.
+After merging with regression SNP LD, 504431 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3708 (0.0257)
+Lambda GC: 1.8316
+Mean Chi^2: 1.9958
+Intercept: 1.05 (0.0187)
+Ratio: 0.0503 (0.0188)
+Analysis finished at Sun Mar  4 13:54:49 2018
+Total time elapsed: 2.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sun Mar  4 19:56:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505031 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505031 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505031 SNPs.
+After merging with reference panel LD, 505031 SNPs remain.
+After merging with regression SNP LD, 505031 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4074 (0.0269)
+Lambda GC: 1.9714
+Mean Chi^2: 2.1522
+Intercept: 1.0723 (0.0186)
+Ratio: 0.0628 (0.0161)
+Analysis finished at Sun Mar  4 19:56:06 2018
+Total time elapsed: 2.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Mon Mar  5 01:54:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504391 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504391 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504391 SNPs.
+After merging with reference panel LD, 504391 SNPs remain.
+After merging with regression SNP LD, 504391 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3695 (0.0247)
+Lambda GC: 1.9263
+Mean Chi^2: 2.343
+Intercept: 1.0742 (0.0184)
+Ratio: 0.0552 (0.0137)
+Analysis finished at Mon Mar  5 01:54:57 2018
+Total time elapsed: 2.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Mon Mar  5 07:56:06 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505003 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505003 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505003 SNPs.
+After merging with reference panel LD, 505003 SNPs remain.
+After merging with regression SNP LD, 505003 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3752 (0.0257)
+Lambda GC: 2.0196
+Mean Chi^2: 2.4722
+Intercept: 1.1062 (0.0176)
+Ratio: 0.0721 (0.012)
+Analysis finished at Mon Mar  5 07:56:08 2018
+Total time elapsed: 2.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Mon Mar  5 13:56:59 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505035 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505035 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505035 SNPs.
+After merging with reference panel LD, 505035 SNPs remain.
+After merging with regression SNP LD, 505035 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4779 (0.0322)
+Lambda GC: 2.0399
+Mean Chi^2: 2.4513
+Intercept: 1.0481 (0.0185)
+Ratio: 0.0331 (0.0128)
+Analysis finished at Mon Mar  5 13:57:02 2018
+Total time elapsed: 2.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Mon Mar  5 20:00:17 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505276 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505276 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505276 SNPs.
+After merging with reference panel LD, 505276 SNPs remain.
+After merging with regression SNP LD, 505276 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4397 (0.0319)
+Lambda GC: 1.8886
+Mean Chi^2: 2.2656
+Intercept: 1.0297 (0.0213)
+Ratio: 0.0235 (0.0168)
+Analysis finished at Mon Mar  5 20:00:20 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Mar  6 02:00:46 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504495 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504495 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504495 SNPs.
+After merging with reference panel LD, 504495 SNPs remain.
+After merging with regression SNP LD, 504495 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3469 (0.028)
+Lambda GC: 1.7393
+Mean Chi^2: 1.9605
+Intercept: 1.072 (0.0182)
+Ratio: 0.0749 (0.019)
+Analysis finished at Tue Mar  6 02:00:49 2018
+Total time elapsed: 2.81s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Mar  6 08:03:39 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505083 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505083 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505083 SNPs.
+After merging with reference panel LD, 505083 SNPs remain.
+After merging with regression SNP LD, 505083 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4243 (0.0301)
+Lambda GC: 1.9528
+Mean Chi^2: 2.2072
+Intercept: 1.0642 (0.021)
+Ratio: 0.0532 (0.0174)
+Analysis finished at Tue Mar  6 08:03:42 2018
+Total time elapsed: 2.64s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Mar  6 14:05:09 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504260 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504260 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504260 SNPs.
+After merging with reference panel LD, 504260 SNPs remain.
+After merging with regression SNP LD, 504260 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4342 (0.0278)
+Lambda GC: 1.9744
+Mean Chi^2: 2.2232
+Intercept: 1.0647 (0.0198)
+Ratio: 0.0529 (0.0162)
+Analysis finished at Tue Mar  6 14:05:12 2018
+Total time elapsed: 2.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Tue Mar  6 20:08:40 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504688 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504688 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504688 SNPs.
+After merging with reference panel LD, 504688 SNPs remain.
+After merging with regression SNP LD, 504688 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4344 (0.0275)
+Lambda GC: 1.923
+Mean Chi^2: 2.4002
+Intercept: 1.0685 (0.0191)
+Ratio: 0.0489 (0.0136)
+Analysis finished at Tue Mar  6 20:08:42 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Mar  7 02:09:06 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505094 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505094 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505094 SNPs.
+After merging with reference panel LD, 505094 SNPs remain.
+After merging with regression SNP LD, 505094 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4255 (0.0311)
+Lambda GC: 1.9156
+Mean Chi^2: 2.2683
+Intercept: 1.0456 (0.0189)
+Ratio: 0.036 (0.0149)
+Analysis finished at Wed Mar  7 02:09:08 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Mar  7 08:10:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504689 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504689 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504689 SNPs.
+After merging with reference panel LD, 504689 SNPs remain.
+After merging with regression SNP LD, 504689 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4155 (0.027)
+Lambda GC: 1.9519
+Mean Chi^2: 2.2678
+Intercept: 1.0813 (0.0186)
+Ratio: 0.0642 (0.0147)
+Analysis finished at Wed Mar  7 08:10:06 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Mar  7 14:10:09 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504072 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504072 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504072 SNPs.
+After merging with reference panel LD, 504072 SNPs remain.
+After merging with regression SNP LD, 504072 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4381 (0.0319)
+Lambda GC: 1.9606
+Mean Chi^2: 2.2079
+Intercept: 1.087 (0.0208)
+Ratio: 0.072 (0.0172)
+Analysis finished at Wed Mar  7 14:10:11 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Wed Mar  7 20:12:39 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504357 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504357 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504357 SNPs.
+After merging with reference panel LD, 504357 SNPs remain.
+After merging with regression SNP LD, 504357 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4434 (0.028)
+Lambda GC: 1.9961
+Mean Chi^2: 2.181
+Intercept: 1.097 (0.0199)
+Ratio: 0.0821 (0.0169)
+Analysis finished at Wed Mar  7 20:12:41 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  8 02:13:03 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504746 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504746 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504746 SNPs.
+After merging with reference panel LD, 504746 SNPs remain.
+After merging with regression SNP LD, 504746 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4071 (0.0283)
+Lambda GC: 1.9523
+Mean Chi^2: 2.2892
+Intercept: 1.0887 (0.0186)
+Ratio: 0.0688 (0.0144)
+Analysis finished at Thu Mar  8 02:13:05 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  8 08:14:39 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504870 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504870 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504870 SNPs.
+After merging with reference panel LD, 504870 SNPs remain.
+After merging with regression SNP LD, 504870 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3666 (0.0278)
+Lambda GC: 1.9177
+Mean Chi^2: 2.2205
+Intercept: 1.0948 (0.0194)
+Ratio: 0.0777 (0.0159)
+Analysis finished at Thu Mar  8 08:14:42 2018
+Total time elapsed: 2.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  8 14:15:26 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504907 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504907 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504907 SNPs.
+After merging with reference panel LD, 504907 SNPs remain.
+After merging with regression SNP LD, 504907 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.359 (0.0261)
+Lambda GC: 1.9189
+Mean Chi^2: 2.032
+Intercept: 1.1129 (0.0196)
+Ratio: 0.1094 (0.019)
+Analysis finished at Thu Mar  8 14:15:28 2018
+Total time elapsed: 2.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Thu Mar  8 20:14:50 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504717 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504717 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504717 SNPs.
+After merging with reference panel LD, 504717 SNPs remain.
+After merging with regression SNP LD, 504717 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3325 (0.0265)
+Lambda GC: 1.8328
+Mean Chi^2: 2.1544
+Intercept: 1.1015 (0.0209)
+Ratio: 0.0879 (0.0181)
+Analysis finished at Thu Mar  8 20:14:52 2018
+Total time elapsed: 2.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  9 02:17:13 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504745 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504745 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504745 SNPs.
+After merging with reference panel LD, 504745 SNPs remain.
+After merging with regression SNP LD, 504745 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4091 (0.0276)
+Lambda GC: 1.9247
+Mean Chi^2: 2.1818
+Intercept: 1.0708 (0.0192)
+Ratio: 0.0599 (0.0162)
+Analysis finished at Fri Mar  9 02:17:16 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  9 08:19:37 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504749 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504749 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504749 SNPs.
+After merging with reference panel LD, 504749 SNPs remain.
+After merging with regression SNP LD, 504749 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3947 (0.0278)
+Lambda GC: 1.8939
+Mean Chi^2: 2.1333
+Intercept: 1.0881 (0.0198)
+Ratio: 0.0778 (0.0174)
+Analysis finished at Fri Mar  9 08:19:39 2018
+Total time elapsed: 2.67s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  9 14:20:01 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504852 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504852 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504852 SNPs.
+After merging with reference panel LD, 504852 SNPs remain.
+After merging with regression SNP LD, 504852 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3922 (0.0277)
+Lambda GC: 1.9848
+Mean Chi^2: 2.386
+Intercept: 1.0789 (0.0188)
+Ratio: 0.0569 (0.0135)
+Analysis finished at Fri Mar  9 14:20:03 2018
+Total time elapsed: 2.6s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Fri Mar  9 20:21:33 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504729 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504729 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504729 SNPs.
+After merging with reference panel LD, 504729 SNPs remain.
+After merging with regression SNP LD, 504729 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4447 (0.0309)
+Lambda GC: 2.0598
+Mean Chi^2: 2.5591
+Intercept: 1.0776 (0.0208)
+Ratio: 0.0498 (0.0133)
+Analysis finished at Fri Mar  9 20:21:36 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar 10 02:19:02 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504549 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504549 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504549 SNPs.
+After merging with reference panel LD, 504549 SNPs remain.
+After merging with regression SNP LD, 504549 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4079 (0.0286)
+Lambda GC: 1.7973
+Mean Chi^2: 2.0387
+Intercept: 1.0658 (0.0215)
+Ratio: 0.0634 (0.0207)
+Analysis finished at Sat Mar 10 02:19:04 2018
+Total time elapsed: 2.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar 10 08:18:35 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 505203 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 505203 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 505203 SNPs.
+After merging with reference panel LD, 505203 SNPs remain.
+After merging with regression SNP LD, 505203 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.4571 (0.0308)
+Lambda GC: 2.0154
+Mean Chi^2: 2.2027
+Intercept: 1.0872 (0.0216)
+Ratio: 0.0725 (0.0179)
+Analysis finished at Sat Mar 10 08:18:37 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar 10 14:19:12 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504673 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504673 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504673 SNPs.
+After merging with reference panel LD, 504673 SNPs remain.
+After merging with regression SNP LD, 504673 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3572 (0.0255)
+Lambda GC: 1.9005
+Mean Chi^2: 2.0079
+Intercept: 1.0678 (0.0201)
+Ratio: 0.0672 (0.02)
+Analysis finished at Sat Mar 10 14:19:14 2018
+Total time elapsed: 2.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sat Mar 10 20:20:48 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504509 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504509 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504509 SNPs.
+After merging with reference panel LD, 504509 SNPs remain.
+After merging with regression SNP LD, 504509 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3484 (0.0279)
+Lambda GC: 1.7703
+Mean Chi^2: 2.0932
+Intercept: 1.0833 (0.0183)
+Ratio: 0.0762 (0.0167)
+Analysis finished at Sat Mar 10 20:20:50 2018
+Total time elapsed: 2.61s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 adm_random.sumstats \
+--not-M-5-50  \
+--out adm_random_h2_wadj \
+--pop-prev 0.1 \
+--samp-prev 0.5 \
+--w-ld admix_p_0.1_10000_chr2_5cm_adjust \
+--ref-ld admix_p_0.1_10000_chr2_5cm_adjust 
+
+Beginning analysis at Sun Mar 11 03:20:55 2018
+Reading summary statistics from adm_random.sumstats ...
+Read summary statistics for 504628 SNPs.
+Reading reference panel LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read reference panel LD Scores for 504628 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from admix_p_0.1_10000_chr2_5cm_adjust ...
+Read regression weight LD Scores for 504628 SNPs.
+After merging with reference panel LD, 504628 SNPs remain.
+After merging with regression SNP LD, 504628 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.3385 (0.0238)
+Lambda GC: 1.8252
+Mean Chi^2: 2.0374
+Intercept: 1.0822 (0.0221)
+Ratio: 0.0792 (0.0213)
+Analysis finished at Sun Mar 11 03:20:57 2018
+Total time elapsed: 2.62s

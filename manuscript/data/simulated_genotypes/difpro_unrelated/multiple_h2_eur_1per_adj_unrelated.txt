@@ -1,0 +1,3301 @@
+begin:
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 00:06:04 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3845 (0.028)
+Lambda GC: 1.6946
+Mean Chi^2: 1.8825
+Intercept: 1.0644 (0.0194)
+Ratio: 0.073 (0.022)
+Analysis finished at Sun Jan 14 00:06:09 2018
+Total time elapsed: 5.01s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 01:04:43 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3789 (0.027)
+Lambda GC: 1.735
+Mean Chi^2: 2.0283
+Intercept: 1.0582 (0.017)
+Ratio: 0.0566 (0.0166)
+Analysis finished at Sun Jan 14 01:04:49 2018
+Total time elapsed: 5.08s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 02:01:52 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3687 (0.0271)
+Lambda GC: 1.5707
+Mean Chi^2: 1.8532
+Intercept: 1.0433 (0.0181)
+Ratio: 0.0508 (0.0213)
+Analysis finished at Sun Jan 14 02:01:57 2018
+Total time elapsed: 5.17s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 03:00:54 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3915 (0.0289)
+Lambda GC: 1.7605
+Mean Chi^2: 1.9657
+Intercept: 1.0624 (0.0164)
+Ratio: 0.0646 (0.017)
+Analysis finished at Sun Jan 14 03:01:00 2018
+Total time elapsed: 5.31s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 03:59:36 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4025 (0.0279)
+Lambda GC: 1.7338
+Mean Chi^2: 1.9722
+Intercept: 1.046 (0.0203)
+Ratio: 0.0473 (0.0209)
+Analysis finished at Sun Jan 14 03:59:42 2018
+Total time elapsed: 6.1s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 04:58:49 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3645 (0.0257)
+Lambda GC: 1.7873
+Mean Chi^2: 1.8631
+Intercept: 1.0893 (0.0177)
+Ratio: 0.1034 (0.0205)
+Analysis finished at Sun Jan 14 04:58:54 2018
+Total time elapsed: 4.88s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 05:52:52 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3765 (0.0266)
+Lambda GC: 1.8332
+Mean Chi^2: 2.2486
+Intercept: 1.0809 (0.0228)
+Ratio: 0.0648 (0.0183)
+Analysis finished at Sun Jan 14 05:52:56 2018
+Total time elapsed: 4.5s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 06:46:40 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4165 (0.0287)
+Lambda GC: 1.6761
+Mean Chi^2: 1.9371
+Intercept: 1.0436 (0.0182)
+Ratio: 0.0466 (0.0194)
+Analysis finished at Sun Jan 14 06:46:45 2018
+Total time elapsed: 4.96s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 07:43:01 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3988 (0.0279)
+Lambda GC: 1.8132
+Mean Chi^2: 2.0114
+Intercept: 1.0511 (0.0187)
+Ratio: 0.0506 (0.0185)
+Analysis finished at Sun Jan 14 07:43:07 2018
+Total time elapsed: 5.44s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 08:35:52 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3367 (0.0276)
+Lambda GC: 1.7249
+Mean Chi^2: 2.1292
+Intercept: 1.0834 (0.0207)
+Ratio: 0.0738 (0.0184)
+Analysis finished at Sun Jan 14 08:35:57 2018
+Total time elapsed: 4.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 09:28:54 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3868 (0.0281)
+Lambda GC: 1.7965
+Mean Chi^2: 2.0809
+Intercept: 1.043 (0.0193)
+Ratio: 0.0397 (0.0179)
+Analysis finished at Sun Jan 14 09:28:58 2018
+Total time elapsed: 4.58s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 10:25:16 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4084 (0.0279)
+Lambda GC: 1.7989
+Mean Chi^2: 2.1188
+Intercept: 1.0128 (0.0204)
+Ratio: 0.0114 (0.0183)
+Analysis finished at Sun Jan 14 10:25:22 2018
+Total time elapsed: 5.41s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 11:22:15 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3713 (0.0284)
+Lambda GC: 1.7703
+Mean Chi^2: 2.2645
+Intercept: 1.0619 (0.0161)
+Ratio: 0.049 (0.0128)
+Analysis finished at Sun Jan 14 11:22:20 2018
+Total time elapsed: 4.74s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 12:15:59 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3693 (0.0244)
+Lambda GC: 1.7676
+Mean Chi^2: 2.0992
+Intercept: 1.0576 (0.0192)
+Ratio: 0.0524 (0.0175)
+Analysis finished at Sun Jan 14 12:16:04 2018
+Total time elapsed: 4.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 13:09:07 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4018 (0.0291)
+Lambda GC: 1.7526
+Mean Chi^2: 1.999
+Intercept: 1.0523 (0.0168)
+Ratio: 0.0523 (0.0168)
+Analysis finished at Sun Jan 14 13:09:12 2018
+Total time elapsed: 4.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 14:04:21 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4015 (0.0255)
+Lambda GC: 1.8276
+Mean Chi^2: 2.2461
+Intercept: 1.0249 (0.0171)
+Ratio: 0.02 (0.0137)
+Analysis finished at Sun Jan 14 14:04:26 2018
+Total time elapsed: 5.05s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 15:00:41 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3766 (0.0283)
+Lambda GC: 1.7175
+Mean Chi^2: 1.9961
+Intercept: 1.0819 (0.0203)
+Ratio: 0.0823 (0.0203)
+Analysis finished at Sun Jan 14 15:00:46 2018
+Total time elapsed: 4.97s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 15:57:25 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4231 (0.0267)
+Lambda GC: 1.8566
+Mean Chi^2: 2.289
+Intercept: 1.0296 (0.0213)
+Ratio: 0.023 (0.0165)
+Analysis finished at Sun Jan 14 15:57:30 2018
+Total time elapsed: 5.23s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 16:52:25 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4032 (0.0308)
+Lambda GC: 1.8052
+Mean Chi^2: 2.1568
+Intercept: 1.0606 (0.0191)
+Ratio: 0.0524 (0.0165)
+Analysis finished at Sun Jan 14 16:52:30 2018
+Total time elapsed: 4.93s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 17:48:57 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3819 (0.0306)
+Lambda GC: 1.7062
+Mean Chi^2: 1.9285
+Intercept: 1.0595 (0.0207)
+Ratio: 0.0641 (0.0223)
+Analysis finished at Sun Jan 14 17:49:02 2018
+Total time elapsed: 5.37s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 18:45:59 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3955 (0.0277)
+Lambda GC: 1.7751
+Mean Chi^2: 2.1009
+Intercept: 1.0597 (0.0189)
+Ratio: 0.0543 (0.0171)
+Analysis finished at Sun Jan 14 18:46:04 2018
+Total time elapsed: 5.32s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 19:42:41 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3898 (0.0263)
+Lambda GC: 1.8493
+Mean Chi^2: 2.2146
+Intercept: 1.0589 (0.0178)
+Ratio: 0.0485 (0.0147)
+Analysis finished at Sun Jan 14 19:42:46 2018
+Total time elapsed: 5.09s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 20:38:30 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3997 (0.0259)
+Lambda GC: 1.7566
+Mean Chi^2: 1.9233
+Intercept: 1.0439 (0.0199)
+Ratio: 0.0475 (0.0216)
+Analysis finished at Sun Jan 14 20:38:34 2018
+Total time elapsed: 4.79s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 21:33:40 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4127 (0.0274)
+Lambda GC: 1.8413
+Mean Chi^2: 2.0248
+Intercept: 1.0562 (0.0185)
+Ratio: 0.0549 (0.018)
+Analysis finished at Sun Jan 14 21:33:45 2018
+Total time elapsed: 4.99s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 22:30:24 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4113 (0.029)
+Lambda GC: 1.8409
+Mean Chi^2: 2.1173
+Intercept: 1.0572 (0.0191)
+Ratio: 0.0512 (0.0171)
+Analysis finished at Sun Jan 14 22:30:29 2018
+Total time elapsed: 5.06s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Sun Jan 14 23:25:33 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3875 (0.0338)
+Lambda GC: 1.6433
+Mean Chi^2: 2.0782
+Intercept: 1.0467 (0.0196)
+Ratio: 0.0433 (0.0182)
+Analysis finished at Sun Jan 14 23:25:38 2018
+Total time elapsed: 5.12s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 00:21:08 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4366 (0.0291)
+Lambda GC: 1.8538
+Mean Chi^2: 1.9844
+Intercept: 1.0177 (0.0195)
+Ratio: 0.018 (0.0198)
+Analysis finished at Mon Jan 15 00:21:14 2018
+Total time elapsed: 5.18s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 01:17:00 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4024 (0.0314)
+Lambda GC: 1.7186
+Mean Chi^2: 2.029
+Intercept: 1.0383 (0.0188)
+Ratio: 0.0372 (0.0183)
+Analysis finished at Mon Jan 15 01:17:05 2018
+Total time elapsed: 5.39s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 02:15:17 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.403 (0.0301)
+Lambda GC: 1.783
+Mean Chi^2: 2.5522
+Intercept: 1.0494 (0.0206)
+Ratio: 0.0318 (0.0133)
+Analysis finished at Mon Jan 15 02:15:22 2018
+Total time elapsed: 4.82s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 03:10:33 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4015 (0.0262)
+Lambda GC: 1.804
+Mean Chi^2: 2.0351
+Intercept: 1.0182 (0.0173)
+Ratio: 0.0176 (0.0167)
+Analysis finished at Mon Jan 15 03:10:38 2018
+Total time elapsed: 5.06s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 04:06:50 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4052 (0.0273)
+Lambda GC: 1.8413
+Mean Chi^2: 1.9903
+Intercept: 1.044 (0.0203)
+Ratio: 0.0444 (0.0205)
+Analysis finished at Mon Jan 15 04:06:55 2018
+Total time elapsed: 5.22s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 05:03:55 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.432 (0.0264)
+Lambda GC: 1.8501
+Mean Chi^2: 2.0919
+Intercept: 1.0361 (0.0191)
+Ratio: 0.033 (0.0175)
+Analysis finished at Mon Jan 15 05:04:00 2018
+Total time elapsed: 5.12s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 05:59:26 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3831 (0.0293)
+Lambda GC: 1.7858
+Mean Chi^2: 2.1504
+Intercept: 1.0663 (0.0196)
+Ratio: 0.0576 (0.017)
+Analysis finished at Mon Jan 15 05:59:31 2018
+Total time elapsed: 5.0s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 06:54:00 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4348 (0.0303)
+Lambda GC: 1.828
+Mean Chi^2: 2.0394
+Intercept: 1.0557 (0.0189)
+Ratio: 0.0536 (0.0182)
+Analysis finished at Mon Jan 15 06:54:04 2018
+Total time elapsed: 4.87s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 07:48:31 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4 (0.0288)
+Lambda GC: 1.7707
+Mean Chi^2: 1.9679
+Intercept: 1.0558 (0.0203)
+Ratio: 0.0576 (0.021)
+Analysis finished at Mon Jan 15 07:48:35 2018
+Total time elapsed: 4.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 08:44:41 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3935 (0.0274)
+Lambda GC: 1.7913
+Mean Chi^2: 2.2942
+Intercept: 1.0322 (0.0196)
+Ratio: 0.0249 (0.0152)
+Analysis finished at Mon Jan 15 08:44:47 2018
+Total time elapsed: 5.04s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 09:40:31 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.412 (0.028)
+Lambda GC: 1.7953
+Mean Chi^2: 2.0263
+Intercept: 1.0438 (0.0198)
+Ratio: 0.0427 (0.0193)
+Analysis finished at Mon Jan 15 09:40:36 2018
+Total time elapsed: 4.71s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 10:35:56 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.401 (0.0286)
+Lambda GC: 1.8655
+Mean Chi^2: 2.6531
+Intercept: 1.07 (0.0208)
+Ratio: 0.0423 (0.0126)
+Analysis finished at Mon Jan 15 10:36:01 2018
+Total time elapsed: 4.58s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 11:28:49 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3986 (0.0297)
+Lambda GC: 1.8144
+Mean Chi^2: 2.1222
+Intercept: 1.0452 (0.0201)
+Ratio: 0.0403 (0.0179)
+Analysis finished at Mon Jan 15 11:28:54 2018
+Total time elapsed: 4.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 12:22:17 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4604 (0.0267)
+Lambda GC: 1.7949
+Mean Chi^2: 2.0528
+Intercept: 1.0468 (0.0216)
+Ratio: 0.0445 (0.0205)
+Analysis finished at Mon Jan 15 12:22:22 2018
+Total time elapsed: 4.7s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 13:15:31 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3904 (0.0291)
+Lambda GC: 1.8056
+Mean Chi^2: 2.0635
+Intercept: 1.0507 (0.0187)
+Ratio: 0.0476 (0.0176)
+Analysis finished at Mon Jan 15 13:15:36 2018
+Total time elapsed: 5.09s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 14:12:07 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3974 (0.0299)
+Lambda GC: 1.753
+Mean Chi^2: 1.9379
+Intercept: 1.0757 (0.0173)
+Ratio: 0.0807 (0.0184)
+Analysis finished at Mon Jan 15 14:12:12 2018
+Total time elapsed: 5.28s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 15:09:10 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4207 (0.0279)
+Lambda GC: 1.8304
+Mean Chi^2: 2.2507
+Intercept: 1.0313 (0.019)
+Ratio: 0.025 (0.0152)
+Analysis finished at Mon Jan 15 15:09:16 2018
+Total time elapsed: 5.39s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 16:06:59 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3497 (0.0321)
+Lambda GC: 1.6888
+Mean Chi^2: 2.2066
+Intercept: 1.0652 (0.0212)
+Ratio: 0.054 (0.0176)
+Analysis finished at Mon Jan 15 16:07:05 2018
+Total time elapsed: 5.57s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 17:06:39 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3694 (0.0278)
+Lambda GC: 1.6463
+Mean Chi^2: 1.8934
+Intercept: 1.0384 (0.017)
+Ratio: 0.043 (0.019)
+Analysis finished at Mon Jan 15 17:06:45 2018
+Total time elapsed: 5.51s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 18:04:42 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3366 (0.0261)
+Lambda GC: 1.7249
+Mean Chi^2: 2.2174
+Intercept: 1.079 (0.0184)
+Ratio: 0.0649 (0.0151)
+Analysis finished at Mon Jan 15 18:04:47 2018
+Total time elapsed: 4.91s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 19:01:15 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3948 (0.0242)
+Lambda GC: 1.728
+Mean Chi^2: 1.8901
+Intercept: 1.0339 (0.0174)
+Ratio: 0.0381 (0.0195)
+Analysis finished at Mon Jan 15 19:01:20 2018
+Total time elapsed: 5.08s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 19:56:21 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3844 (0.0273)
+Lambda GC: 1.7814
+Mean Chi^2: 1.9678
+Intercept: 1.0539 (0.0172)
+Ratio: 0.0557 (0.0177)
+Analysis finished at Mon Jan 15 19:56:26 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 20:49:09 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3739 (0.0302)
+Lambda GC: 1.7448
+Mean Chi^2: 1.8979
+Intercept: 1.0864 (0.0194)
+Ratio: 0.0963 (0.0216)
+Analysis finished at Mon Jan 15 20:49:14 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 21:41:59 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3921 (0.032)
+Lambda GC: 1.7913
+Mean Chi^2: 2.0139
+Intercept: 1.0557 (0.0205)
+Ratio: 0.055 (0.0202)
+Analysis finished at Mon Jan 15 21:42:03 2018
+Total time elapsed: 4.56s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 22:34:34 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4248 (0.0311)
+Lambda GC: 1.8292
+Mean Chi^2: 2.0321
+Intercept: 1.0476 (0.0198)
+Ratio: 0.0461 (0.0192)
+Analysis finished at Mon Jan 15 22:34:38 2018
+Total time elapsed: 4.57s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Mon Jan 15 23:26:36 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4328 (0.0288)
+Lambda GC: 1.8699
+Mean Chi^2: 2.0533
+Intercept: 1.026 (0.0179)
+Ratio: 0.0247 (0.017)
+Analysis finished at Mon Jan 15 23:26:41 2018
+Total time elapsed: 4.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 00:18:29 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.34 (0.0274)
+Lambda GC: 1.7221
+Mean Chi^2: 2.1968
+Intercept: 1.0703 (0.0182)
+Ratio: 0.0587 (0.0152)
+Analysis finished at Tue Jan 16 00:18:33 2018
+Total time elapsed: 4.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 01:12:40 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4211 (0.0306)
+Lambda GC: 1.7778
+Mean Chi^2: 1.9755
+Intercept: 1.0127 (0.0196)
+Ratio: 0.013 (0.0201)
+Analysis finished at Tue Jan 16 01:12:45 2018
+Total time elapsed: 4.32s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 02:05:02 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3452 (0.0272)
+Lambda GC: 1.7237
+Mean Chi^2: 1.8796
+Intercept: 1.0659 (0.0207)
+Ratio: 0.0749 (0.0235)
+Analysis finished at Tue Jan 16 02:05:06 2018
+Total time elapsed: 4.52s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 02:58:40 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3758 (0.0261)
+Lambda GC: 1.7703
+Mean Chi^2: 1.9786
+Intercept: 1.0568 (0.0191)
+Ratio: 0.0581 (0.0195)
+Analysis finished at Tue Jan 16 02:58:45 2018
+Total time elapsed: 4.37s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 03:52:45 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4471 (0.0273)
+Lambda GC: 1.8232
+Mean Chi^2: 2.066
+Intercept: 0.9967 (0.0205)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Tue Jan 16 03:52:49 2018
+Total time elapsed: 4.6s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 04:46:55 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3919 (0.0271)
+Lambda GC: 1.812
+Mean Chi^2: 2.2447
+Intercept: 1.0466 (0.0188)
+Ratio: 0.0374 (0.0151)
+Analysis finished at Tue Jan 16 04:46:59 2018
+Total time elapsed: 4.57s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 05:39:59 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3964 (0.0308)
+Lambda GC: 1.6977
+Mean Chi^2: 1.9068
+Intercept: 1.0142 (0.0193)
+Ratio: 0.0156 (0.0213)
+Analysis finished at Tue Jan 16 05:40:03 2018
+Total time elapsed: 4.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 06:34:12 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3622 (0.0274)
+Lambda GC: 1.652
+Mean Chi^2: 1.8873
+Intercept: 1.036 (0.0204)
+Ratio: 0.0406 (0.023)
+Analysis finished at Tue Jan 16 06:34:17 2018
+Total time elapsed: 4.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 07:28:21 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3779 (0.0254)
+Lambda GC: 1.8216
+Mean Chi^2: 2.2328
+Intercept: 1.0693 (0.0178)
+Ratio: 0.0562 (0.0144)
+Analysis finished at Tue Jan 16 07:28:25 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 08:21:32 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4688 (0.0295)
+Lambda GC: 1.7695
+Mean Chi^2: 2.082
+Intercept: 0.9747 (0.0177)
+Ratio < 0 (usually indicates GC correction).
+Analysis finished at Tue Jan 16 08:21:36 2018
+Total time elapsed: 4.63s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 09:15:45 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3631 (0.026)
+Lambda GC: 1.742
+Mean Chi^2: 3.1432
+Intercept: 1.0873 (0.0171)
+Ratio: 0.0407 (0.008)
+Analysis finished at Tue Jan 16 09:15:49 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 10:09:50 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4355 (0.0309)
+Lambda GC: 1.7957
+Mean Chi^2: 2.1775
+Intercept: 1.016 (0.019)
+Ratio: 0.0136 (0.0161)
+Analysis finished at Tue Jan 16 10:09:54 2018
+Total time elapsed: 4.6s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 11:02:56 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4344 (0.0282)
+Lambda GC: 1.7648
+Mean Chi^2: 2.0691
+Intercept: 1.0269 (0.0184)
+Ratio: 0.0251 (0.0172)
+Analysis finished at Tue Jan 16 11:03:01 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 11:56:19 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3644 (0.0263)
+Lambda GC: 1.6704
+Mean Chi^2: 1.8959
+Intercept: 1.0467 (0.021)
+Ratio: 0.0521 (0.0235)
+Analysis finished at Tue Jan 16 11:56:24 2018
+Total time elapsed: 4.76s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 12:49:55 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4116 (0.0282)
+Lambda GC: 1.804
+Mean Chi^2: 2.0098
+Intercept: 1.0576 (0.0185)
+Ratio: 0.057 (0.0183)
+Analysis finished at Tue Jan 16 12:50:00 2018
+Total time elapsed: 4.8s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 13:44:37 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4309 (0.0293)
+Lambda GC: 1.828
+Mean Chi^2: 2.3585
+Intercept: 1.0557 (0.0176)
+Ratio: 0.041 (0.0129)
+Analysis finished at Tue Jan 16 13:44:42 2018
+Total time elapsed: 4.8s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 14:37:00 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.361 (0.0261)
+Lambda GC: 1.6463
+Mean Chi^2: 1.8218
+Intercept: 1.0681 (0.019)
+Ratio: 0.0828 (0.0231)
+Analysis finished at Tue Jan 16 14:37:05 2018
+Total time elapsed: 4.75s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 15:31:30 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4045 (0.0296)
+Lambda GC: 1.8072
+Mean Chi^2: 2.4735
+Intercept: 1.0484 (0.0197)
+Ratio: 0.0329 (0.0134)
+Analysis finished at Tue Jan 16 15:31:34 2018
+Total time elapsed: 4.85s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 16:26:47 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4129 (0.0272)
+Lambda GC: 1.7925
+Mean Chi^2: 2.1592
+Intercept: 1.0696 (0.0234)
+Ratio: 0.06 (0.0202)
+Analysis finished at Tue Jan 16 16:26:52 2018
+Total time elapsed: 4.89s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 17:21:44 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4386 (0.0294)
+Lambda GC: 1.8586
+Mean Chi^2: 1.9964
+Intercept: 1.0315 (0.0184)
+Ratio: 0.0317 (0.0185)
+Analysis finished at Tue Jan 16 17:21:49 2018
+Total time elapsed: 5.11s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 18:23:31 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3685 (0.0263)
+Lambda GC: 1.712
+Mean Chi^2: 1.8625
+Intercept: 1.0451 (0.0194)
+Ratio: 0.0523 (0.0225)
+Analysis finished at Tue Jan 16 18:23:37 2018
+Total time elapsed: 5.2s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 19:22:09 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4011 (0.0271)
+Lambda GC: 1.8675
+Mean Chi^2: 2.2197
+Intercept: 1.0555 (0.0192)
+Ratio: 0.0455 (0.0157)
+Analysis finished at Tue Jan 16 19:22:14 2018
+Total time elapsed: 5.25s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 20:16:39 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.386 (0.0258)
+Lambda GC: 1.7798
+Mean Chi^2: 2.1424
+Intercept: 1.0822 (0.0202)
+Ratio: 0.072 (0.0177)
+Analysis finished at Tue Jan 16 20:16:43 2018
+Total time elapsed: 4.67s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 21:09:44 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3823 (0.0287)
+Lambda GC: 1.7822
+Mean Chi^2: 2.0552
+Intercept: 1.0537 (0.0188)
+Ratio: 0.0509 (0.0178)
+Analysis finished at Tue Jan 16 21:09:49 2018
+Total time elapsed: 4.54s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 22:03:40 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.386 (0.0298)
+Lambda GC: 1.8208
+Mean Chi^2: 2.2418
+Intercept: 1.0838 (0.0197)
+Ratio: 0.0675 (0.0158)
+Analysis finished at Tue Jan 16 22:03:45 2018
+Total time elapsed: 4.81s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 22:57:16 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4148 (0.0289)
+Lambda GC: 1.7929
+Mean Chi^2: 1.9728
+Intercept: 1.0247 (0.0173)
+Ratio: 0.0254 (0.0178)
+Analysis finished at Tue Jan 16 22:57:21 2018
+Total time elapsed: 4.77s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Tue Jan 16 23:52:07 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3734 (0.0321)
+Lambda GC: 1.742
+Mean Chi^2: 2.0454
+Intercept: 1.0453 (0.02)
+Ratio: 0.0434 (0.0191)
+Analysis finished at Tue Jan 16 23:52:12 2018
+Total time elapsed: 4.74s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 00:44:44 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4262 (0.0321)
+Lambda GC: 1.7814
+Mean Chi^2: 1.9904
+Intercept: 1.0447 (0.0189)
+Ratio: 0.0451 (0.0191)
+Analysis finished at Wed Jan 17 00:44:48 2018
+Total time elapsed: 4.37s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 01:37:55 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4505 (0.0279)
+Lambda GC: 1.859
+Mean Chi^2: 1.9931
+Intercept: 1.001 (0.0194)
+Ratio: 0.001 (0.0196)
+Analysis finished at Wed Jan 17 01:37:59 2018
+Total time elapsed: 4.44s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 02:29:18 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3768 (0.0282)
+Lambda GC: 1.7854
+Mean Chi^2: 1.9062
+Intercept: 1.0492 (0.0195)
+Ratio: 0.0542 (0.0215)
+Analysis finished at Wed Jan 17 02:29:22 2018
+Total time elapsed: 4.19s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 03:21:09 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3927 (0.0294)
+Lambda GC: 1.8124
+Mean Chi^2: 2.0069
+Intercept: 1.0761 (0.0199)
+Ratio: 0.0756 (0.0198)
+Analysis finished at Wed Jan 17 03:21:13 2018
+Total time elapsed: 4.11s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 04:11:51 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4381 (0.0294)
+Lambda GC: 1.8618
+Mean Chi^2: 2.183
+Intercept: 1.0164 (0.0198)
+Ratio: 0.0139 (0.0168)
+Analysis finished at Wed Jan 17 04:11:56 2018
+Total time elapsed: 4.45s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 05:04:18 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.358 (0.0262)
+Lambda GC: 1.7546
+Mean Chi^2: 1.9742
+Intercept: 1.0675 (0.0221)
+Ratio: 0.0693 (0.0227)
+Analysis finished at Wed Jan 17 05:04:22 2018
+Total time elapsed: 4.29s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 05:59:51 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4039 (0.0296)
+Lambda GC: 1.7763
+Mean Chi^2: 2.092
+Intercept: 1.0505 (0.0204)
+Ratio: 0.0462 (0.0187)
+Analysis finished at Wed Jan 17 05:59:56 2018
+Total time elapsed: 4.34s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 06:52:22 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3519 (0.0267)
+Lambda GC: 1.7264
+Mean Chi^2: 3.8043
+Intercept: 1.0428 (0.0187)
+Ratio: 0.0153 (0.0067)
+Analysis finished at Wed Jan 17 06:52:26 2018
+Total time elapsed: 4.35s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 07:45:27 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3556 (0.026)
+Lambda GC: 1.7688
+Mean Chi^2: 2.0115
+Intercept: 1.0775 (0.0181)
+Ratio: 0.0767 (0.0179)
+Analysis finished at Wed Jan 17 07:45:32 2018
+Total time elapsed: 4.79s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 08:41:09 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4123 (0.0307)
+Lambda GC: 1.8336
+Mean Chi^2: 2.9054
+Intercept: 1.0291 (0.0181)
+Ratio: 0.0153 (0.0095)
+Analysis finished at Wed Jan 17 08:41:16 2018
+Total time elapsed: 7.47s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 09:40:29 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3922 (0.0288)
+Lambda GC: 1.7315
+Mean Chi^2: 2.2241
+Intercept: 1.0501 (0.0209)
+Ratio: 0.0409 (0.0171)
+Analysis finished at Wed Jan 17 09:40:34 2018
+Total time elapsed: 5.03s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 10:40:00 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4168 (0.0283)
+Lambda GC: 1.8618
+Mean Chi^2: 2.0394
+Intercept: 1.0415 (0.0189)
+Ratio: 0.0399 (0.0182)
+Analysis finished at Wed Jan 17 10:40:05 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 11:33:46 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.357 (0.0246)
+Lambda GC: 1.7385
+Mean Chi^2: 2.3902
+Intercept: 1.065 (0.019)
+Ratio: 0.0467 (0.0137)
+Analysis finished at Wed Jan 17 11:34:06 2018
+Total time elapsed: 20.0s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 12:30:37 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3942 (0.0266)
+Lambda GC: 1.7581
+Mean Chi^2: 1.9875
+Intercept: 1.0742 (0.0176)
+Ratio: 0.0752 (0.0178)
+Analysis finished at Wed Jan 17 12:30:41 2018
+Total time elapsed: 4.58s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 13:22:56 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3539 (0.0277)
+Lambda GC: 1.7151
+Mean Chi^2: 2.3577
+Intercept: 1.0517 (0.0175)
+Ratio: 0.0381 (0.0129)
+Analysis finished at Wed Jan 17 13:23:01 2018
+Total time elapsed: 4.41s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 14:15:40 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4147 (0.0278)
+Lambda GC: 1.8433
+Mean Chi^2: 2.1361
+Intercept: 1.0402 (0.0189)
+Ratio: 0.0354 (0.0167)
+Analysis finished at Wed Jan 17 14:15:45 2018
+Total time elapsed: 4.66s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 15:17:06 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3435 (0.029)
+Lambda GC: 1.726
+Mean Chi^2: 2.8559
+Intercept: 1.0586 (0.018)
+Ratio: 0.0316 (0.0097)
+Analysis finished at Wed Jan 17 15:17:10 2018
+Total time elapsed: 4.65s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 16:12:06 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3839 (0.0268)
+Lambda GC: 1.824
+Mean Chi^2: 1.8891
+Intercept: 1.0816 (0.0173)
+Ratio: 0.0918 (0.0195)
+Analysis finished at Wed Jan 17 16:12:11 2018
+Total time elapsed: 4.91s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 17:06:41 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3825 (0.0272)
+Lambda GC: 1.8112
+Mean Chi^2: 2.0649
+Intercept: 1.0579 (0.0252)
+Ratio: 0.0544 (0.0237)
+Analysis finished at Wed Jan 17 17:06:45 2018
+Total time elapsed: 4.62s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 17:59:49 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.3959 (0.0261)
+Lambda GC: 1.8578
+Mean Chi^2: 2.2
+Intercept: 1.0696 (0.0172)
+Ratio: 0.058 (0.0143)
+Analysis finished at Wed Jan 17 17:59:53 2018
+Total time elapsed: 4.56s
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 eur_random.sumstats \
+--not-M-5-50  \
+--out eur_random_h2_adj \
+--w-ld eur_10000_chr2_5cm_adjust_unrelated \
+--ref-ld eur_10000_chr2_5cm_adjust_unrelated 
+
+Beginning analysis at Wed Jan 17 18:52:48 2018
+Reading summary statistics from eur_random.sumstats ...
+Read summary statistics for 519867 SNPs.
+Reading reference panel LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read reference panel LD Scores for 519867 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_10000_chr2_5cm_adjust_unrelated ...
+Read regression weight LD Scores for 519867 SNPs.
+After merging with reference panel LD, 519867 SNPs remain.
+After merging with regression SNP LD, 519867 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.4356 (0.0293)
+Lambda GC: 1.7625
+Mean Chi^2: 1.9926
+Intercept: 1.0073 (0.0198)
+Ratio: 0.0074 (0.0199)
+Analysis finished at Wed Jan 17 18:52:53 2018
+Total time elapsed: 4.55s
