@@ -15,13 +15,13 @@ git clone https://github.com/immunogenomics/cov-ldsc.git
 We used 1000 Genome Project Ad Mixed American (AMR) chromosome 21 data as a demo. 
 
 The first step is to acquire global principal components (PCs) from the raw genotypes. Different methods can be applied to measure PCs. We applied EIGENSOFT(Patterson et al. 2006) on AMR whole genome LD pruned data .
-The first two columns of the covariance file should be family IDs and individual IDs. The subsequent columns are the covariates that you want to include in adjusting LD.
+The PC files should be formatted that the first two columns of the covariance file are family IDs and individual IDs and the subsequent columns are the covariates that you want to include in adjusting LD.
 
 We provide a pre-generated 10PC file on AMR_chr21/AMR.evec. 
 
 When estimating LD score in an admixed population, you should include the genome-wide covariance file with the flags `--cov`. We recommend to use 20cM for LD window size (--ld-wind-cm). For example:
 ```
-ldsc.py --bfile AMR_chr21_cm --l2 --ld-wind-cm 20 --cov AMR.evec --out AMR_chr21_20cm_covldsc
+ldsc.py --bfile example/AMR_chr21/AMR_chr21_cm --l2 --ld-wind-cm 20 --cov example/AMR_chr21/AMR.evec --out example/AMR_chr21/AMR_chr21_20cm_covldsc
 ```
 
 
