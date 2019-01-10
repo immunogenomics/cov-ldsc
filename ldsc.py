@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 '''
-(c) 2014 Brendan Bulik-Sullivan and Hilary Finucane
+(c) 2018 Yang Luo and Xinyi Li
 
-LDSC is a command line tool for estimating
-    1. LD Score
-    2. heritability / partitioned heritability
-    3. genetic covariance / correlation
+cov-LDSC is a command line tool based on 2014-2015 Bredan BS and Hilary Finucane for estimating LD score in admixed population
 
 '''
+
 from __future__ import division
 import ldscore.ldscore as ld
 import ldscore.parse as ps
@@ -28,10 +26,10 @@ except AttributeError:
 
 __version__ = '1.0.0'
 MASTHEAD = "*********************************************************************\n"
-MASTHEAD += "* LD Score Regression (LDSC)\n"
+MASTHEAD += "* covariance adjusted LD Score Regression (cov-LDSC)\n"
 MASTHEAD += "* Version {V}\n".format(V=__version__)
-MASTHEAD += "* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane\n"
-MASTHEAD += "* Broad Institute of MIT and Harvard / MIT Department of Mathematics\n"
+MASTHEAD += "* (C) 2018 Yang Luo and Xinyi Li\n"
+MASTHEAD += "* modified based on LDSC https://github.com/bulik/ldsc\n"
 MASTHEAD += "* GNU General Public License v3\n"
 MASTHEAD += "*********************************************************************\n"
 pd.set_option('display.max_rows', 500)
