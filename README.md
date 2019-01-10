@@ -8,7 +8,7 @@ covariate-adjusted LD score regression (cov-LDSC) is a method to provide robust 
 ## Repo Contents
 - [ldscore](./ldscore): scripts used for running LDSC 
 - [example](./example): example files used in demo 
-- [manuscript](./manuscript): data and scripts to reproduce the result in the manuscript 
+- [manuscript](./manuscript): data and scripts to reproduce the results in the manuscript 
 
 ## Getting Started
 To download cov-ldsc you should clone this repository via the command
@@ -16,7 +16,7 @@ To download cov-ldsc you should clone this repository via the command
 git clone https://github.com/immunogenomics/cov-ldsc.git
 ```
 ## Estimating LD score
-The first step is to acquire global principal components (PCs) from the raw whole-genome genotypes. Different methods can be applied to measure PCs. We applied EIGENSOFT(Patterson et al. 2006) on AMR whole genome LD pruned data .
+The first step is to acquire global principal components (PCs) from the raw whole-genome genotypes. Different methods can be applied to measure PCs. We applied EIGENSOFT(Patterson et al. 2006) on AMR whole genome LD pruned data.
 The PC files should be formatted that the first two columns of the covariance file are family IDs and individual IDs and the subsequent columns are the covariates that you want to include in adjusting LD.
 
 ```
