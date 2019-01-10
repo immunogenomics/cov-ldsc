@@ -11,7 +11,7 @@ To download cov-ldsc you should clone this repository via the command
 ```
 git clone https://github.com/immunogenomics/cov-ldsc.git
 ```
-## LD score
+## Estimating LD score
 We used 1000 Genome Project Ad Mixed American (AMR) chromosome 21 data as a demo. 
 
 The first step is to acquire global principal components (PCs) from the raw genotypes. Different methods can be applied to measure PCs. We applied EIGENSOFT(Patterson et al. 2006) on AMR whole genome LD pruned data .
@@ -28,10 +28,17 @@ ldsc.py --bfile example/AMR_chr21/AMR_chr21_cm --l2 --ld-wind-cm 20 --cov exampl
 ## Heritability estimation
 For estimating heritability in admixed populations, you can follow the same command used in original LD score regression. Refer to instructions of original LD score regression : https://github.com/bulik/ldsc/wiki
 
-## Prerequisites
+## Prerequisites 
 1. `Python (3 > version >= 2.7)`
-2. `argparse`
-3. `bitarray`
-4. `numpy`
-5. `pandas`
-6. `scipy`
+2. `argparse` 
+3. `bitarray: 0.8` 
+4. `numpy: 1.12` 
+5. `pandas: 0.20` 
+6. `scipy: 0.18` 
+
+## [License](https://github.com/immunogenomics/cov-ldsc/blob/master/LICENSE)
+
+## Citations 
+For citing code or the paper, please use the [bioRxiv](https://www.biorxiv.org/content/early/2018/12/22/503144)
+
+
