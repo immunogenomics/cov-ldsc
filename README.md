@@ -1,5 +1,3 @@
-`cov-LDSC` (covariance-adjusted LD Score Regression) is a tool extended from original LDSC to measure heritability from GWAS summary statistic in admixed populations.
-
 ## cov-LDSC
 covariate-adjusted LD score regression (cov-LDSC) is a method to provide robust hg2 estimates from GWAS summary statistics and in-sample LD estimates in admixed populations. Check out the latest [preprint](https://www.biorxiv.org/content/early/2018/12/22/503144) of cov-LDSC on bioRxiv.
 
@@ -40,10 +38,10 @@ There are four output files:
 Below is the summary file for the example we used and the run time is around 3 minutes on local machine:
 ```
 *********************************************************************
-* LD Score Regression (LDSC)
+* covariate-adjusted LD Score Regression (cov-LDSC)
 * Version 1.0.0
-* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
-* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+# (C) 2018 Yang Luo and Xinyi Li
+* Based original LDSC: 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane https://github.com/bulik/ldsc/wiki
 * GNU General Public License v3
 *********************************************************************
 Call:
@@ -86,7 +84,7 @@ For estimating heritability in admixed populations, you can follow the same comm
 ## Prerequisites
 1. `Python (3 > version >= 2.7)`
 2. `bitarray: 0.8`
-3. `numpy: 1.12` 
+3. `numpy: 1.12`
 4. `pandas: 0.20`
 5. `scipy: 0.18`
 
