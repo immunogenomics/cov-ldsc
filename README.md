@@ -41,7 +41,8 @@ Below is the summary file for the example we used and the run time is around 3 m
 * covariate-adjusted LD Score Regression (cov-LDSC)
 * Version 1.0.0
 # (C) 2018 Yang Luo and Xinyi Li
-* Based original LDSC: 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane https://github.com/bulik/ldsc/wiki
+* Based original LDSC: 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* https://github.com/bulik/ldsc/wiki
 * GNU General Public License v3
 *********************************************************************
 Call:
