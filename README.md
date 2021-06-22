@@ -92,4 +92,6 @@ For estimating heritability in admixed populations, you can follow the same comm
 ## [License](https://github.com/immunogenomics/cov-ldsc/blob/master/LICENSE)
 
 ## Citations
-For citing code or the paper, please use the [bioRxiv](https://www.biorxiv.org/content/early/2018/12/22/503144)
+For citing code or the paper, please see our [manuscript](https://academic.oup.com/hmg/advance-article/doi/10.1093/hmg/ddab130/6275363)
+
+Luo*, Li* et al. (2021) ‘Estimating heritability and its enrichment in tissue-specific gene sets in admixed populations’, Human molecular genetics. doi: 10.1093/hmg/ddab130.
