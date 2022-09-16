@@ -1,0 +1,38 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ld-wind-cm 20.0 \
+--out chr22_20cm_wadj \
+--bfile ../chr22_maf0.05_cm \
+--cov ../sigma_maf0.05_xyremove.evec \
+--l2  
+
+Beginning analysis at Tue Aug 21 14:41:17 2018
+Read list of 19569 SNPs from ../chr22_maf0.05_cm.bim
+Read list of 8214 individuals from ../chr22_maf0.05_cm.fam
+Reading genotypes from ../chr22_maf0.05_cm.bed
+Estimating LD Score.
+Writing LD Scores for 19569 SNPs to chr22_20cm_wadj.l2.ldscore.gz
+
+Summary of LD Scores in chr22_20cm_wadj.l2.ldscore.gz
+         MAF        L2
+mean  0.2535   30.3294
+std   0.1335   26.0194
+min   0.0500    1.4085
+25%   0.1332   15.3240
+50%   0.2442   23.7743
+75%   0.3684   36.5440
+max   0.5000  258.3431
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.2383
+L2   0.2383  1.0000
+Analysis finished at Tue Aug 21 14:48:48 2018
+Total time elapsed: 7.0m:31.55s
